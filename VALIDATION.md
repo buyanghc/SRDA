@@ -16,8 +16,8 @@ CPU-only checks performed during preparation (2026-10-09):
 Compression changes storage only. Workflow records are explicitly a metric/
 protocol projection, not full trajectories. The complete archived release remains
 the source for trajectory inspection and original provenance. This edition does
-not claim a new GPU smoke test, resolve historical model-revision gaps, change
-experimental settings, or choose an author-code license.
+not claim a new GPU smoke test, resolve historical model-revision gaps, or change
+experimental settings.
 
 Run `python3 review.py check` for release hashes and matrix/outcome checks, or
 `python3 review.py figures` to reproduce the numerical table checks and plots.

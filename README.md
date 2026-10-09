@@ -47,4 +47,3 @@ completed-execution ASR. This edition is for lightweight inspection, not a
 replacement for trajectory-level evidence.
 
 Historical model-revision limitations remain documented in the run guide.
-The release license is still undecided; see [license status](LICENSE-STATUS.md).

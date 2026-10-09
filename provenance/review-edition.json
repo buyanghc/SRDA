@@ -19,5 +19,5 @@
   },
   "omitted": "Bulk workflow/defense trajectories, operational preparation logs, duplicate frozen files, generated previews.",
   "compression": "Controlled CSV and config JSON, defense final metrics and canonical lineage: lossless gzip; workflow: gzip-compressed metric/protocol projection of all executions.",
-  "limitations": "Existing Qwen3 controlled-weight revision gap and undecided release license remain; no new GPU inference validation."
+  "limitations": "Existing Qwen3 controlled-weight revision gap remains; no new GPU inference validation."
 }
