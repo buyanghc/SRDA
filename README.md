@@ -1,4 +1,4 @@
-# SRDA — reviewer edition
+# SRDA
 
 Code and final observations for **Single-Request Delegation Attacks (SRDA)**.
 This lightweight edition contains only the paper's six model configurations and
