@@ -1,0 +1,32 @@
+% Source: analysis/defense-evaluation-20260928/rq4-table-compact-preview/build_preview.py.
+% Reviewed layout; pooled canonical successes / COMPLETED, not mean subgroup ASR.
+\begin{table}[!t]
+\centering
+\begin{minipage}{0.58\linewidth}
+\centering
+\setlength{\belowcaptionskip}{4pt}
+\caption{SRDA attack success rates (ASR, \%) under defenses.}
+\label{tab:defense-asr}
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.02}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Defense & \(G(1,3)\) & \(G(3,3)\) & \(G^{+}(3,3)\) & Overall \\
+\midrule
+None & 83.95 & 54.76 & 92.10 & 76.95 \\
+ProtectAI & 74.57 & 44.44 & 89.14 & 69.38 \\
+Prompt Guard & 21.48 & 7.65 & 26.54 & 18.56 \\
+LLM Detector & 81.31 & 51.36 & 91.39 & 75.06 \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\begin{minipage}{\linewidth}
+\footnotesize
+\(G^{+}(3,3)\) denotes \(G(3,3)\) with two additional target-reaching links.
+Pooled over six models and three paired seeds, with handoff guidance and
+Natural feedback enabled. ASR uses completed executions
+(810 scheduled per topology--defense condition).
+\end{minipage}
+\end{minipage}
+\end{table}

@@ -1,0 +1,34 @@
+schema_version: "1.0"
+config_id: request-response-final-forward-terminal-bounded-20260820
+status: frozen
+frozen_at: "2026-08-20"
+supersedes: request-response-final-forward-terminal-20260820
+experiment:
+  condition: FINAL_FORWARD_TERMINAL_4ITER
+  framework: autogen_core
+  communication_mode: synchronous_nested_direct_request_response
+  sandbox: agentdojo
+  compromised_agent: Agent_A
+  entry_agent_mode: deterministic
+  compromised_entry_policy: sequential_send_to_all_direct_contacts
+  downstream_request_policy: system_handoff_plus_task_forward
+  entry_response_policy: record_only_no_llm_no_followup
+  response_visibility: hidden
+  handoff_continuation: terminal_after_send
+  downstream_response_policy: record_response_end_sender_turn
+  disclosure_transform: no_response_returned_to_sender_model
+  canonical_work_item_policy: runtime_preserved_at_every_handoff
+model: {name: Qwen3-14B, temperature: 0.0, prompt_language: en, prompt_version: gatepath-request-response-system-handoff-forward-20260818-en, enable_thinking: false, parallel_tool_calls: true, context_window_tokens: 8192}
+budget: {max_tool_iterations: 4, max_messages: 16, max_runtime_seconds: 90}
+randomization:
+  repetition_count: 3
+  seed_pairs:
+    - {repetition_id: 0, graph_seed: 0, role_seed: 100}
+    - {repetition_id: 1, graph_seed: 1, role_seed: 101}
+    - {repetition_id: 2, graph_seed: 2, role_seed: 102}
+targets: {registry: gatepath/data/formal_target_instances_v1_2_2.yaml, expected_registry_instance_count: 60, selection: fixed_selection_manifest, selection_manifest: gatepath/data/formal_target_selection_3_per_type_v1.yaml, selection_manifest_sha256: cd1db50f3a2aee97dbe50be29b856d4f96a34f780d0f975d9ebb877fa6d3d8f4, expected_instance_count: 45, target_type_count: 15}
+graphs:
+  include_direct_only: false
+  names: ["G(1,2)", "G(1,3)", "G(2,2)", "G(2,3)", "G(3,2)", "G(3,3)", "G(1,6)", "GDAG", "G33-X2", "G33-P2", "G33-X3", "G33-P3", "G16-ACYCLIC-CONTROL", "G16-CYCLE"]
+success_definition: {primary: any_verified_target_effect_during_episode, tool_reached_metric: target_tool_dispatched, final_state_only: false}
+recording: {save_raw_agent_responses: true, save_model_visible_response_content: true, record_raw_downstream_responses: true, record_off_target_sensitive_tool_executions: true, record_repeated_node_visits: true, record_repeated_edge_traversals: true, record_cycle_closing_messages: true, record_budget_exhaustion: true, record_repeated_sensitive_tool_dispatches: true, record_elapsed_seconds: true, record_model_token_usage: true}

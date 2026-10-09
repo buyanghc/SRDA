@@ -1,0 +1,23 @@
+\begin{table}[!htbp]
+\centering
+\caption{Model and serving configurations. Each service uses one GPU and an 8,192-token context window.}
+\label{tab:model-serving}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.26\linewidth}>{\raggedright\arraybackslash}p{0.12\linewidth}>{\raggedright\arraybackslash}p{0.14\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Model & Weight format & Reasoning & GPU and tool-call parser \\
+\midrule
+Qwen3-14B & BF16 & Disabled & L40; \texttt{hermes} \\
+\addlinespace
+Qwen3.5-9B (no-thinking) & BF16 & Disabled & H200; \texttt{qwen3\_coder} \\
+\addlinespace
+Qwen3.5-9B (thinking) & BF16 & Enabled & H200; \texttt{qwen3\_coder}, reasoning parser \texttt{qwen3} \\
+\addlinespace
+Ministral-3-14B-Instruct & FP8 & Not applicable & H200; \path{gatepath_mistral_json} \\
+\addlinespace
+GPT-OSS-20B & MXFP4 & Low effort & H200; \texttt{openai}, reasoning parser \texttt{openai\_gptoss}; BF16 compute \\
+\addlinespace
+Llama-3.1-8B & BF16 & Not applicable & H200; \texttt{llama3\_json} \\
+\bottomrule
+\end{tabularx}
+\end{table}

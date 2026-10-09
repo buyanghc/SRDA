@@ -1,0 +1,80 @@
+[
+  {
+    "path": "runtimes/gpt-oss-20b-low/tests/test_final_main_experiments.py",
+    "kind": "scope regression to six published conditions; remove unpublished single/fanout assertions",
+    "original_sha256": "2291e7b909260fa5203c6dd869cc50396e9174feb70cb70f083dda34f98d3954",
+    "release_sha256": "314e67cb60e931cd2b0b24ec963cb71af41af38cf52a521dd7b2a2abe2b59209"
+  },
+  {
+    "path": "runtimes/gpt-oss-20b-low/tests/test_mixed_workflow.py",
+    "kind": "exclude pilot-only regression; retain both full workflow matrices and deterministic execution tests",
+    "original_sha256": "0c39e4b72a6e99c44f72524556057642995affd1b26476d1dbdcd749bd75b56b",
+    "release_sha256": "7289b8d06dd1117070009dbdbc602f2141034d56a1f0fd35be325d34d0e0885c"
+  },
+  {
+    "path": "runtimes/llama3.1-8b/tests/test_final_main_experiments.py",
+    "kind": "scope regression to six published conditions; remove unpublished single/fanout assertions",
+    "original_sha256": "2291e7b909260fa5203c6dd869cc50396e9174feb70cb70f083dda34f98d3954",
+    "release_sha256": "314e67cb60e931cd2b0b24ec963cb71af41af38cf52a521dd7b2a2abe2b59209"
+  },
+  {
+    "path": "runtimes/llama3.1-8b/tests/test_mixed_workflow.py",
+    "kind": "exclude pilot-only regression; retain both full workflow matrices and deterministic execution tests",
+    "original_sha256": "0c39e4b72a6e99c44f72524556057642995affd1b26476d1dbdcd749bd75b56b",
+    "release_sha256": "7289b8d06dd1117070009dbdbc602f2141034d56a1f0fd35be325d34d0e0885c"
+  },
+  {
+    "path": "runtimes/ministral3-14b/tests/test_final_main_experiments.py",
+    "kind": "scope regression to six published conditions; remove unpublished single/fanout assertions",
+    "original_sha256": "2291e7b909260fa5203c6dd869cc50396e9174feb70cb70f083dda34f98d3954",
+    "release_sha256": "314e67cb60e931cd2b0b24ec963cb71af41af38cf52a521dd7b2a2abe2b59209"
+  },
+  {
+    "path": "runtimes/ministral3-14b/tests/test_mixed_workflow.py",
+    "kind": "exclude pilot-only regression; retain both full workflow matrices and deterministic execution tests",
+    "original_sha256": "0c39e4b72a6e99c44f72524556057642995affd1b26476d1dbdcd749bd75b56b",
+    "release_sha256": "7289b8d06dd1117070009dbdbc602f2141034d56a1f0fd35be325d34d0e0885c"
+  },
+  {
+    "path": "runtimes/qwen3-14b/tests/test_final_main_experiments.py",
+    "kind": "scope regression to six published conditions; remove unpublished single/fanout assertions",
+    "original_sha256": "2291e7b909260fa5203c6dd869cc50396e9174feb70cb70f083dda34f98d3954",
+    "release_sha256": "314e67cb60e931cd2b0b24ec963cb71af41af38cf52a521dd7b2a2abe2b59209"
+  },
+  {
+    "path": "runtimes/qwen3-14b/tests/test_mixed_workflow.py",
+    "kind": "exclude pilot-only regression; retain both full workflow matrices and deterministic execution tests",
+    "original_sha256": "0c39e4b72a6e99c44f72524556057642995affd1b26476d1dbdcd749bd75b56b",
+    "release_sha256": "7289b8d06dd1117070009dbdbc602f2141034d56a1f0fd35be325d34d0e0885c"
+  },
+  {
+    "path": "runtimes/qwen3.5-9B-nothinking/tests/test_final_main_experiments.py",
+    "kind": "scope regression to six published conditions; remove unpublished single/fanout assertions",
+    "original_sha256": "2291e7b909260fa5203c6dd869cc50396e9174feb70cb70f083dda34f98d3954",
+    "release_sha256": "314e67cb60e931cd2b0b24ec963cb71af41af38cf52a521dd7b2a2abe2b59209"
+  },
+  {
+    "path": "runtimes/qwen3.5-9B-nothinking/tests/test_mixed_workflow.py",
+    "kind": "exclude pilot-only regression; retain both full workflow matrices and deterministic execution tests",
+    "original_sha256": "0c39e4b72a6e99c44f72524556057642995affd1b26476d1dbdcd749bd75b56b",
+    "release_sha256": "7289b8d06dd1117070009dbdbc602f2141034d56a1f0fd35be325d34d0e0885c"
+  },
+  {
+    "path": "runtimes/qwen3.5-9B-thinking/tests/test_final_main_experiments.py",
+    "kind": "scope regression to six published conditions; remove unpublished single/fanout assertions",
+    "original_sha256": "2291e7b909260fa5203c6dd869cc50396e9174feb70cb70f083dda34f98d3954",
+    "release_sha256": "314e67cb60e931cd2b0b24ec963cb71af41af38cf52a521dd7b2a2abe2b59209"
+  },
+  {
+    "path": "runtimes/qwen3.5-9B-thinking/tests/test_mixed_workflow.py",
+    "kind": "exclude pilot-only regression; retain both full workflow matrices and deterministic execution tests",
+    "original_sha256": "0c39e4b72a6e99c44f72524556057642995affd1b26476d1dbdcd749bd75b56b",
+    "release_sha256": "7289b8d06dd1117070009dbdbc602f2141034d56a1f0fd35be325d34d0e0885c"
+  },
+  {
+    "path": "runtimes/defenses/tests/test_request_response.py",
+    "kind": "required deterministic runtime fixture dependency",
+    "original_sha256": "ebf072432f5922090d51fed94824d3db0edad49c2b8c9cac993126f27fa48316",
+    "release_sha256": "ebf072432f5922090d51fed94824d3db0edad49c2b8c9cac993126f27fa48316"
+  }
+]

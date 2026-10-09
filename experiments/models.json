@@ -1,0 +1,50 @@
+{
+  "qwen3-14b": {
+    "runtime": "runtimes/qwen3-14b",
+    "model": "Qwen3-14B",
+    "settings": {
+      "thinking_mode": "disabled",
+      "reasoning_effort": null
+    }
+  },
+  "qwen3.5-9B-nothinking": {
+    "runtime": "runtimes/qwen3.5-9B-nothinking",
+    "model": "Qwen3.5-9B",
+    "settings": {
+      "thinking_mode": "disabled",
+      "reasoning_effort": null
+    }
+  },
+  "qwen3.5-9B-thinking": {
+    "runtime": "runtimes/qwen3.5-9B-thinking",
+    "model": "Qwen3.5-9B",
+    "settings": {
+      "thinking_mode": "enabled",
+      "reasoning_effort": null
+    }
+  },
+  "ministral3-14b": {
+    "runtime": "runtimes/ministral3-14b",
+    "model": "Ministral-3-14B-Instruct-2512",
+    "settings": {
+      "thinking_mode": null,
+      "reasoning_effort": null
+    }
+  },
+  "gpt-oss-20b-low": {
+    "runtime": "runtimes/gpt-oss-20b-low",
+    "model": "gpt-oss-20b",
+    "settings": {
+      "thinking_mode": "enabled",
+      "reasoning_effort": "low"
+    }
+  },
+  "llama3.1-8b": {
+    "runtime": "runtimes/llama3.1-8b",
+    "model": "Llama-3.1-8B-Instruct",
+    "settings": {
+      "thinking_mode": null,
+      "reasoning_effort": null
+    }
+  }
+}

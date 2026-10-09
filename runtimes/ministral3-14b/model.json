@@ -1,0 +1,6 @@
+{
+  "repo_id": "mistralai/Ministral-3-14B-Instruct-2512",
+  "revision": "29439f81c2be264d8d393273f99e7db9c0961120",
+  "served_model_name": "Ministral-3-14B-Instruct-2512",
+  "weight_format": "FP8"
+}

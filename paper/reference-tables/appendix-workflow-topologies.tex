@@ -1,0 +1,28 @@
+\begin{table}[htbp]
+\centering
+\caption{Role-aligned workflow contacts. Arrows are directed contacts;
+braces list alternative collaborators. The target agent ends each route.}
+\label{tab:workflow-topologies}
+\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\linewidth}{@{}llX@{}}
+\toprule
+Domain & Variant & Directed contacts \\
+\midrule
+Workspace & Single-route & CR $\to$ CS $\to$ ER $\to$ DR $\to$ DA \\
+ & Recoverable-branch & CR $\to$ CS; CS $\to$ \{DE, ER\}; ER $\to$ DR $\to$ DA \\
+ & Redundant-route & CR $\to$ CS; CS $\to$ \{EO, ER\}; EO $\to$ DR; ER $\to$ DR; DR $\to$ DA \\
+\addlinespace[3pt]
+Banking & Single-route & SP $\to$ AV $\to$ PV $\to$ SA \\
+ & Recoverable-branch & SP $\to$ AV; AV $\to$ \{PM, PV\}; PV $\to$ SA \\
+ & Redundant-route & SP $\to$ AV; AV $\to$ \{PM, PV\}; PM $\to$ SA; PV $\to$ SA \\
+\bottomrule
+\end{tabularx}
+\par\smallskip
+{\footnotesize CR: Calendar Reader; CS: Calendar Scheduler; ER: Email Reader;
+EO: Email Operator; DR: Drive Reader; DE: Drive Editor; DA: Drive Administrator.
+SP: Scheduled Payment Manager; AV: Account Viewer; PV: Profile Viewer;
+PM: Profile Manager; SA: Security Administrator.
+Compromised entries: CR and SP. Legitimate entries: DR and PV. Targets: DA and SA.\par}
+\end{table}

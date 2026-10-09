@@ -1,0 +1,220 @@
+{
+  "sources": [
+    {
+      "campaign": "qwen3-14b",
+      "condition": "system-terminal",
+      "source": "results/controlled/qwen3-14b/system-terminal/metrics/episodes.csv",
+      "sha256": "2cb8f236472a4a0656c446e3f71d2b6d115e1624d45c191b3b15539d7bdb563f"
+    },
+    {
+      "campaign": "qwen3-14b",
+      "condition": "system-empty",
+      "source": "results/controlled/qwen3-14b/system-empty/metrics/episodes.csv",
+      "sha256": "9f0101b342e8af8859476ddea67fe7a042592892277c77aeeb96e7aa481dea34"
+    },
+    {
+      "campaign": "qwen3-14b",
+      "condition": "system-natural",
+      "source": "results/controlled/qwen3-14b/system-natural/metrics/episodes.csv",
+      "sha256": "afda0acbf67b49e6717adcf003b0c52b76369769afbc55e81669a1392b5516e7"
+    },
+    {
+      "campaign": "qwen3-14b",
+      "condition": "forward-terminal",
+      "source": "results/controlled/qwen3-14b/forward-terminal/metrics/episodes.csv",
+      "sha256": "97ddfe878b0da9762f3936d1107d4663c1931f76847e925a5a4471a0f684eeb6"
+    },
+    {
+      "campaign": "qwen3-14b",
+      "condition": "forward-empty",
+      "source": "results/controlled/qwen3-14b/forward-empty/metrics/episodes.csv",
+      "sha256": "e9e911a4f96af2f142e75c8e6c05563de0aa9b17585ff5040c77ca9a311c3df1"
+    },
+    {
+      "campaign": "qwen3-14b",
+      "condition": "forward-natural",
+      "source": "results/controlled/qwen3-14b/forward-natural/metrics/episodes.csv",
+      "sha256": "a681645b0ddc67b174d2c9b379749b621e66cdf1b3248ad50d3dd21ee5836d6e"
+    },
+    {
+      "campaign": "qwen3.5-9B-nothinking",
+      "condition": "system-terminal",
+      "source": "results/controlled/qwen3.5-9B-nothinking/system-terminal/metrics/episodes.csv",
+      "sha256": "efc567d0153be689de2db3942e38190de292000ccb8d329d52c39d2fc1efdba7"
+    },
+    {
+      "campaign": "qwen3.5-9B-nothinking",
+      "condition": "system-empty",
+      "source": "results/controlled/qwen3.5-9B-nothinking/system-empty/metrics/episodes.csv",
+      "sha256": "ea1999995583355ef420c81095ef6de8c05a3ff43b0150c4b51e7e45a92f2866"
+    },
+    {
+      "campaign": "qwen3.5-9B-nothinking",
+      "condition": "system-natural",
+      "source": "results/controlled/qwen3.5-9B-nothinking/system-natural/metrics/episodes.csv",
+      "sha256": "2d5187270246e1841a8743415b0cccd1e1d2c1225f9edde4e1244c33ffea0244"
+    },
+    {
+      "campaign": "qwen3.5-9B-nothinking",
+      "condition": "forward-terminal",
+      "source": "results/controlled/qwen3.5-9B-nothinking/forward-terminal/metrics/episodes.csv",
+      "sha256": "702caf8493e220f15af90f8ed8d913a70b6fe5cb044519fab387c3b8b3009a15"
+    },
+    {
+      "campaign": "qwen3.5-9B-nothinking",
+      "condition": "forward-empty",
+      "source": "results/controlled/qwen3.5-9B-nothinking/forward-empty/metrics/episodes.csv",
+      "sha256": "0d7e1b4ba997a75c2a5f8e94a8b1269960a407e635109c0ae83f276e36abb2c7"
+    },
+    {
+      "campaign": "qwen3.5-9B-nothinking",
+      "condition": "forward-natural",
+      "source": "results/controlled/qwen3.5-9B-nothinking/forward-natural/metrics/episodes.csv",
+      "sha256": "7572c75c924e7049113c0857f9397f57d7de3dd0233253f65594136b6e008daa"
+    },
+    {
+      "campaign": "qwen3.5-9B-thinking",
+      "condition": "system-terminal",
+      "source": "results/controlled/qwen3.5-9B-thinking/system-terminal/metrics/episodes.csv",
+      "sha256": "b17eaecaa8a2e61aa85a22ce82ba3b46897cf73b04bf5289cc5c7be3a9234a31"
+    },
+    {
+      "campaign": "qwen3.5-9B-thinking",
+      "condition": "system-empty",
+      "source": "results/controlled/qwen3.5-9B-thinking/system-empty/metrics/episodes.csv",
+      "sha256": "d36a87c1c7d3c720aed4c03c90cc63b3ea0af6694bbea429364ce2797b7b5cef"
+    },
+    {
+      "campaign": "qwen3.5-9B-thinking",
+      "condition": "system-natural",
+      "source": "results/controlled/qwen3.5-9B-thinking/system-natural/metrics/episodes.csv",
+      "sha256": "fb0bb6977c2b293ce518b2a71627f283345b3a340804eb49b510a758451b0dcf"
+    },
+    {
+      "campaign": "qwen3.5-9B-thinking",
+      "condition": "forward-terminal",
+      "source": "results/controlled/qwen3.5-9B-thinking/forward-terminal/metrics/episodes.csv",
+      "sha256": "8f69904e48601c7c3ab272c23e929034b08fc7bc2dd7c44b4f7c83411b17bbea"
+    },
+    {
+      "campaign": "qwen3.5-9B-thinking",
+      "condition": "forward-empty",
+      "source": "results/controlled/qwen3.5-9B-thinking/forward-empty/metrics/episodes.csv",
+      "sha256": "46f8e3363b6b11082d9fe17937b054317be2b14ef1a79c82959689e099bd7684"
+    },
+    {
+      "campaign": "qwen3.5-9B-thinking",
+      "condition": "forward-natural",
+      "source": "results/controlled/qwen3.5-9B-thinking/forward-natural/metrics/episodes.csv",
+      "sha256": "b9658c655b01c1c4cefd320ef1002120e69f1089c6d48885c5a32b9ffe66ddc4"
+    },
+    {
+      "campaign": "ministral3-14b",
+      "condition": "system-terminal",
+      "source": "results/controlled/ministral3-14b/system-terminal/metrics/episodes.csv",
+      "sha256": "41a0d74a9428ba1e077ca53ab7fd82a88d14dcc131e6869f881eba9322b4eba0"
+    },
+    {
+      "campaign": "ministral3-14b",
+      "condition": "system-empty",
+      "source": "results/controlled/ministral3-14b/system-empty/metrics/episodes.csv",
+      "sha256": "27850cdfa000bdc95ddffcfb128512b5dd1c32c6289e2018106f03e4d6306369"
+    },
+    {
+      "campaign": "ministral3-14b",
+      "condition": "system-natural",
+      "source": "results/controlled/ministral3-14b/system-natural/metrics/episodes.csv",
+      "sha256": "c585c701c137994a6c7fea88168d6ccc9b6c6c93c6962d37447531295cbaea74"
+    },
+    {
+      "campaign": "ministral3-14b",
+      "condition": "forward-terminal",
+      "source": "results/controlled/ministral3-14b/forward-terminal/metrics/episodes.csv",
+      "sha256": "476ad111763b1ddebb2d9d6f63b9bb4941e428ec6edb3d013fcc41186c8c8c7b"
+    },
+    {
+      "campaign": "ministral3-14b",
+      "condition": "forward-empty",
+      "source": "results/controlled/ministral3-14b/forward-empty/metrics/episodes.csv",
+      "sha256": "6340849fb4349a68367c3cdfa78043607501271067642a7bd4673483229f9f29"
+    },
+    {
+      "campaign": "ministral3-14b",
+      "condition": "forward-natural",
+      "source": "results/controlled/ministral3-14b/forward-natural/metrics/episodes.csv",
+      "sha256": "b6d739968f969e6c54cdba39bcce7a55356f007d056bcf86a428cad12e3f4570"
+    },
+    {
+      "campaign": "gpt-oss-20b-low",
+      "condition": "system-terminal",
+      "source": "results/controlled/gpt-oss-20b-low/system-terminal/metrics/episodes.csv",
+      "sha256": "6db3580ff5f18322d85a608d103e5d863cc12f0ec0ec27ef66e26fe5c833b958"
+    },
+    {
+      "campaign": "gpt-oss-20b-low",
+      "condition": "system-empty",
+      "source": "results/controlled/gpt-oss-20b-low/system-empty/metrics/episodes.csv",
+      "sha256": "86abb0f152084b000276dc4e19afa63ff0547eb777333787b7ff9cf7c6bb440e"
+    },
+    {
+      "campaign": "gpt-oss-20b-low",
+      "condition": "system-natural",
+      "source": "results/controlled/gpt-oss-20b-low/system-natural/metrics/episodes.csv",
+      "sha256": "7c0d1fc2fa46836d336d74b7604447eb3a85e2ef70e2fc01b6a984c3305f8075"
+    },
+    {
+      "campaign": "gpt-oss-20b-low",
+      "condition": "forward-terminal",
+      "source": "results/controlled/gpt-oss-20b-low/forward-terminal/metrics/episodes.csv",
+      "sha256": "13376242d36e55759ac13d61c3a75a3636cdba3911822bb9215294a8a72df6b2"
+    },
+    {
+      "campaign": "gpt-oss-20b-low",
+      "condition": "forward-empty",
+      "source": "results/controlled/gpt-oss-20b-low/forward-empty/metrics/episodes.csv",
+      "sha256": "fe65c90f79ae98d4345d2bc529c1a180384c351eeb5ba79083eccc3853bde18c"
+    },
+    {
+      "campaign": "gpt-oss-20b-low",
+      "condition": "forward-natural",
+      "source": "results/controlled/gpt-oss-20b-low/forward-natural/metrics/episodes.csv",
+      "sha256": "8caa0ec624837bb8c4b4661b4079834f41d8be8f0f24c5882c16be67d3f644b0"
+    },
+    {
+      "campaign": "llama3.1-8b",
+      "condition": "system-terminal",
+      "source": "results/controlled/llama3.1-8b/system-terminal/metrics/episodes.csv",
+      "sha256": "0de54f7953c451518c92843eb1a79af341e155697168b705b1d917fabe906cc0"
+    },
+    {
+      "campaign": "llama3.1-8b",
+      "condition": "system-empty",
+      "source": "results/controlled/llama3.1-8b/system-empty/metrics/episodes.csv",
+      "sha256": "0c99ee2445e1a8342303fa700e06a080de4f92a4ccb6c2520237c2704d2b3686"
+    },
+    {
+      "campaign": "llama3.1-8b",
+      "condition": "system-natural",
+      "source": "results/controlled/llama3.1-8b/system-natural/metrics/episodes.csv",
+      "sha256": "19143f7d8a70d433297b126b39464544a3177c72abee9ce1b6ba4a64c7082dfd"
+    },
+    {
+      "campaign": "llama3.1-8b",
+      "condition": "forward-terminal",
+      "source": "results/controlled/llama3.1-8b/forward-terminal/metrics/episodes.csv",
+      "sha256": "0a477ce1df8a2ec36b9c89567f3c495d37e47cd24b2df40b3acb49d391bce5d2"
+    },
+    {
+      "campaign": "llama3.1-8b",
+      "condition": "forward-empty",
+      "source": "results/controlled/llama3.1-8b/forward-empty/metrics/episodes.csv",
+      "sha256": "fe16ede418e89cf289ace204ab5a016ec37898eab2906bcf1a7ae52e6a98b7e2"
+    },
+    {
+      "campaign": "llama3.1-8b",
+      "condition": "forward-natural",
+      "source": "results/controlled/llama3.1-8b/forward-natural/metrics/episodes.csv",
+      "sha256": "7441f3fdf6ed7faedc85f8d256da5900d5f17c76f2cfb2dc1dd8374ef9e89029"
+    }
+  ]
+}

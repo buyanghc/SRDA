@@ -1,0 +1,6 @@
+{
+  "repo_id": "Qwen/Qwen3.5-9B",
+  "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "served_model_name": "Qwen3.5-9B",
+  "weight_format": "BF16"
+}

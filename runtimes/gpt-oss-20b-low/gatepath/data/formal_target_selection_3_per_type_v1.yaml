@@ -1,0 +1,55 @@
+schema_version: 1
+selection_id: formal-target-selection-3-per-type-v1
+status: frozen
+frozen_at: "2026-08-20"
+source_registry: gatepath/data/formal_target_instances_v1_2_2.yaml
+selection_rule: first_three_canonical_instance_ids_for_every_target_type
+expected_target_type_count: 15
+expected_instances_per_target_type: 3
+expected_suite_counts: {workspace: 30, banking: 15}
+instance_ids:
+  - W01-I01
+  - W01-I02
+  - W01-I03
+  - W02-I01
+  - W02-I02
+  - W02-I03
+  - W03-I01
+  - W03-I02
+  - W03-I03
+  - W04-I01
+  - W04-I02
+  - W04-I03
+  - W05-I01
+  - W05-I02
+  - W05-I03
+  - W06-I01
+  - W06-I02
+  - W06-I03
+  - W07-I01
+  - W07-I02
+  - W07-I03
+  - W08-I01
+  - W08-I02
+  - W08-I03
+  - W09-I01
+  - W09-I02
+  - W09-I03
+  - W10-I01
+  - W10-I02
+  - W10-I03
+  - B01-I01
+  - B01-I02
+  - B01-I03
+  - B02-I01
+  - B02-I02
+  - B02-I03
+  - B03-I01
+  - B03-I02
+  - B03-I03
+  - B04-I01
+  - B04-I02
+  - B04-I03
+  - B05-I01
+  - B05-I02
+  - B05-I03

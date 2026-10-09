@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gatepath"
+version = "0.1.0"
+description = "Black-box failure-feedback disclosure and delegation experiment layer"
+requires-python = ">=3.10"
+dependencies = [
+    "agentdojo==0.1.35",
+    "autogen-agentchat==0.7.5",
+    "autogen-core==0.7.5",
+    "autogen-ext[openai]==0.7.5",
+    "openai>=1.93,<2",
+    "PyYAML>=6.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.setuptools.packages.find]
+include = ["gatepath*"]
+
+[tool.setuptools.package-data]
+gatepath = ["data/*.yaml"]

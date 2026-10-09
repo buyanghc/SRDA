@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-09-05",
+  "python": "3.12.3",
+  "vllm": "0.28.1rc1.dev141+g2a61f060d",
+  "vllm_commit": "2a61f060d342afb680f5a8937ed614b774bf9305",
+  "vllm_wheel": "https://wheels.vllm.ai/2a61f060d342afb680f5a8937ed614b774bf9305/vllm-0.28.1rc1.dev141%2Bg2a61f060d-cp38-abi3-manylinux_2_28_x86_64.whl",
+  "torch": "2.13.0+cu132",
+  "transformers": "5.16.1",
+  "openai": "3.6.0",
+  "tokenizers": "0.23.1"
+}

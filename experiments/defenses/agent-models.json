@@ -1,0 +1,57 @@
+{
+  "qwen35-nothinking": {
+    "model": "Qwen3.5-9B",
+    "thinking_mode": "disabled",
+    "reasoning_effort": null,
+    "model_path": "qwen3.5-9B-nothinking/models/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "serving": "qwen35",
+    "precision": "BF16"
+  },
+  "qwen35-thinking": {
+    "model": "Qwen3.5-9B",
+    "thinking_mode": "enabled",
+    "reasoning_effort": null,
+    "model_path": "qwen3.5-9B-thinking/models/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+    "serving": "qwen35",
+    "precision": "BF16"
+  },
+  "qwen3-14b": {
+    "model": "Qwen3-14B",
+    "thinking_mode": "disabled",
+    "reasoning_effort": null,
+    "model_path": "srda-defense-20260928/models/qwen3-14b/40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "revision": "40c069824f4251a91eefaf281ebe4c544efd3e18",
+    "serving": "qwen3",
+    "precision": "BF16",
+    "provenance_note": "New pinned NCI snapshot; fresh matched None baseline, no assumption of historical HPC serving equivalence."
+  },
+  "ministral3-14b": {
+    "model": "Ministral-3-14B-Instruct-2512",
+    "thinking_mode": null,
+    "reasoning_effort": null,
+    "model_path": "ministral3-14b/models/Ministral-3-14B-Instruct-2512/29439f81c2be264d8d393273f99e7db9c0961120",
+    "revision": "29439f81c2be264d8d393273f99e7db9c0961120",
+    "serving": "mistral",
+    "precision": "FP8"
+  },
+  "gpt-oss-20b-low": {
+    "model": "gpt-oss-20b",
+    "thinking_mode": "enabled",
+    "reasoning_effort": "low",
+    "model_path": "gpt-oss-20b-low/models/gpt-oss-20b/6cee5e81ee83917806bbde320786a8fb61efebee",
+    "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+    "serving": "gptoss",
+    "precision": "MXFP4 weights/BF16 compute"
+  },
+  "llama31-8b": {
+    "model": "Llama-3.1-8B-Instruct",
+    "thinking_mode": null,
+    "reasoning_effort": null,
+    "model_path": "llama3.1-8b/models/Llama-3.1-8B-Instruct/0e9e39f249a16976918f6564b8830bc894c89659",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "serving": "llama",
+    "precision": "BF16"
+  }
+}

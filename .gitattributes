@@ -1,0 +1,2 @@
+# Preserve the frozen byte-level checksums across clones and platforms.
+* -text

@@ -1,0 +1,6 @@
+{
+  "repo_id": "openai/gpt-oss-20b",
+  "revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+  "served_model_name": "gpt-oss-20b",
+  "weight_format": "MXFP4"
+}
