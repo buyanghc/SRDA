@@ -1,0 +1,1369 @@
+{
+  "kind": "FINAL_COVERAGE_AUDITED_WITH_RETAINED_ERRORS",
+  "unique_records": 9720,
+  "logical_batches": 18,
+  "new_physical_shards": 19,
+  "four_arm_pairs": 2430,
+  "new_selected_records": 6052,
+  "reuse_records": 3667,
+  "retained_legacy_errors": 1,
+  "selected_by_arm": {
+    "protectai": 1371,
+    "promptguard": 2198,
+    "llm_detector": 2430,
+    "none": 53
+  },
+  "selection_decisions": {
+    "reuse_unchanged_pass_path": 3667,
+    "rerun_local_stop": 3464,
+    "rerun_paper_detector": 2378,
+    "retain_legacy_error": 1,
+    "resume_interrupted_legacy": 1,
+    "new_unstarted": 209
+  },
+  "status_counts": {
+    "COMPLETED": 9486,
+    "ERROR": 234
+  },
+  "error_categories": {
+    "capacity_trace_evidence": 4,
+    "capacity": 95,
+    "invalid_detector_output": 129,
+    "legacy_none_capacity": 1,
+    "truncated_detector_output": 5
+  },
+  "groups": {
+    "llm_detector": {
+      "planned": 2430,
+      "valid": 2197,
+      "errors": 233,
+      "attack_successes_valid": 1649,
+      "asr_valid": 0.7505689576695493,
+      "success_fraction_all_planned_lower_bound": 0.6786008230452675,
+      "success_fraction_all_planned_upper_bound": 0.7744855967078189,
+      "error_categories": {
+        "capacity_trace_evidence": 4,
+        "capacity": 95,
+        "invalid_detector_output": 129,
+        "truncated_detector_output": 5
+      },
+      "runtime_budget_exhausted_valid": 383,
+      "message_budget_exhausted_valid": 0,
+      "token_usage_incomplete_valid": 17,
+      "costs": {
+        "elapsed_seconds": {
+          "available_valid": 2197,
+          "mean_valid": 45.3612563216556,
+          "sum_valid": 99658.68013867736
+        },
+        "agent_tokens": {
+          "available_valid": 2197,
+          "mean_valid": 14445.177059626763,
+          "sum_valid": 31736054
+        },
+        "detector_tokens": {
+          "available_valid": 2197,
+          "mean_valid": 3430.522530723714,
+          "sum_valid": 7536858
+        }
+      }
+    },
+    "none": {
+      "planned": 2430,
+      "valid": 2429,
+      "errors": 1,
+      "attack_successes_valid": 1869,
+      "asr_valid": 0.7694524495677233,
+      "success_fraction_all_planned_lower_bound": 0.7691358024691358,
+      "success_fraction_all_planned_upper_bound": 0.7695473251028807,
+      "error_categories": {
+        "legacy_none_capacity": 1
+      },
+      "runtime_budget_exhausted_valid": 351,
+      "message_budget_exhausted_valid": 55,
+      "token_usage_incomplete_valid": 0,
+      "costs": {
+        "elapsed_seconds": {
+          "available_valid": 2429,
+          "mean_valid": 41.08082375496077,
+          "sum_valid": 99785.3209007997
+        },
+        "agent_tokens": {
+          "available_valid": 2429,
+          "mean_valid": 22972.820502264305,
+          "sum_valid": 55800981
+        },
+        "detector_tokens": {
+          "available_valid": 2429,
+          "mean_valid": 0,
+          "sum_valid": 0
+        }
+      }
+    },
+    "promptguard": {
+      "planned": 2430,
+      "valid": 2430,
+      "errors": 0,
+      "attack_successes_valid": 451,
+      "asr_valid": 0.18559670781893003,
+      "success_fraction_all_planned_lower_bound": 0.18559670781893003,
+      "success_fraction_all_planned_upper_bound": 0.18559670781893003,
+      "error_categories": {},
+      "runtime_budget_exhausted_valid": 88,
+      "message_budget_exhausted_valid": 0,
+      "token_usage_incomplete_valid": 0,
+      "costs": {
+        "elapsed_seconds": {
+          "available_valid": 2430,
+          "mean_valid": 12.034072409187724,
+          "sum_valid": 29242.795954326168
+        },
+        "agent_tokens": {
+          "available_valid": 2430,
+          "mean_valid": 4511.640329218107,
+          "sum_valid": 10963286
+        },
+        "detector_tokens": {
+          "available_valid": 2430,
+          "mean_valid": 0,
+          "sum_valid": 0
+        }
+      }
+    },
+    "protectai": {
+      "planned": 2430,
+      "valid": 2430,
+      "errors": 0,
+      "attack_successes_valid": 1686,
+      "asr_valid": 0.6938271604938272,
+      "success_fraction_all_planned_lower_bound": 0.6938271604938272,
+      "success_fraction_all_planned_upper_bound": 0.6938271604938272,
+      "error_categories": {},
+      "runtime_budget_exhausted_valid": 230,
+      "message_budget_exhausted_valid": 20,
+      "token_usage_incomplete_valid": 0,
+      "costs": {
+        "elapsed_seconds": {
+          "available_valid": 2430,
+          "mean_valid": 33.912607927385665,
+          "sum_valid": 82407.63726354716
+        },
+        "agent_tokens": {
+          "available_valid": 2430,
+          "mean_valid": 15220.91316872428,
+          "sum_valid": 36986819
+        },
+        "detector_tokens": {
+          "available_valid": 2430,
+          "mean_valid": 0,
+          "sum_valid": 0
+        }
+      }
+    }
+  },
+  "paired_cost_and_success": {
+    "llm_detector": {
+      "valid_pairs": 2196,
+      "none_successes": 1693,
+      "defended_successes": 1649,
+      "mean_differences_vs_none": {
+        "elapsed_seconds": {
+          "pairs": 2196,
+          "mean_difference": 4.844745110380904
+        },
+        "agent_tokens": {
+          "pairs": 2196,
+          "mean_difference": -5856.317395264116
+        },
+        "detector_tokens": {
+          "pairs": 2196,
+          "mean_difference": 3427.4781420765025
+        }
+      }
+    },
+    "promptguard": {
+      "valid_pairs": 2429,
+      "none_successes": 1869,
+      "defended_successes": 451,
+      "mean_differences_vs_none": {
+        "elapsed_seconds": {
+          "pairs": 2429,
+          "mean_difference": -29.04194170076319
+        },
+        "agent_tokens": {
+          "pairs": 2429,
+          "mean_difference": -18459.322766570604
+        },
+        "detector_tokens": {
+          "pairs": 2429,
+          "mean_difference": 0
+        }
+      }
+    },
+    "protectai": {
+      "valid_pairs": 2429,
+      "none_successes": 1869,
+      "defended_successes": 1686,
+      "mean_differences_vs_none": {
+        "elapsed_seconds": {
+          "pairs": 2429,
+          "mean_difference": -7.158916895919065
+        },
+        "agent_tokens": {
+          "pairs": 2429,
+          "mean_difference": -7752.967476327707
+        },
+        "detector_tokens": {
+          "pairs": 2429,
+          "mean_difference": 0
+        }
+      }
+    }
+  },
+  "by_model_defense": {
+    "qwen3-14b": {
+      "llm_detector": {
+        "planned": 405,
+        "valid": 393,
+        "errors": 12,
+        "attack_successes_valid": 328,
+        "asr_valid": 0.8346055979643766,
+        "success_fraction_all_planned_lower_bound": 0.8098765432098766,
+        "success_fraction_all_planned_upper_bound": 0.8395061728395061,
+        "error_categories": {
+          "capacity_trace_evidence": 4,
+          "capacity": 8
+        },
+        "runtime_budget_exhausted_valid": 44,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 393,
+            "mean_valid": 44.237337655684044,
+            "sum_valid": 17385.273698683828
+          },
+          "agent_tokens": {
+            "available_valid": 393,
+            "mean_valid": 15325.35368956743,
+            "sum_valid": 6022864
+          },
+          "detector_tokens": {
+            "available_valid": 393,
+            "mean_valid": 2810.10941475827,
+            "sum_valid": 1104373
+          }
+        }
+      },
+      "none": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 345,
+        "asr_valid": 0.8518518518518519,
+        "success_fraction_all_planned_lower_bound": 0.8518518518518519,
+        "success_fraction_all_planned_upper_bound": 0.8518518518518519,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 58,
+        "message_budget_exhausted_valid": 2,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 43.412401706270046,
+            "sum_valid": 17582.02269103937
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 17691.434567901233,
+            "sum_valid": 7165031
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 88,
+        "asr_valid": 0.21728395061728395,
+        "success_fraction_all_planned_lower_bound": 0.21728395061728395,
+        "success_fraction_all_planned_upper_bound": 0.21728395061728395,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 8,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 11.642793008725354,
+            "sum_valid": 4715.3311685337685
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 3326.054320987654,
+            "sum_valid": 1347052
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 340,
+        "asr_valid": 0.8395061728395061,
+        "success_fraction_all_planned_lower_bound": 0.8395061728395061,
+        "success_fraction_all_planned_upper_bound": 0.8395061728395061,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 40,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 38.42575837049725,
+            "sum_valid": 15562.432140051387
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 14252.797530864198,
+            "sum_valid": 5772383
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    },
+    "qwen35-nothinking": {
+      "llm_detector": {
+        "planned": 405,
+        "valid": 349,
+        "errors": 56,
+        "attack_successes_valid": 286,
+        "asr_valid": 0.8194842406876791,
+        "success_fraction_all_planned_lower_bound": 0.7061728395061728,
+        "success_fraction_all_planned_upper_bound": 0.8444444444444444,
+        "error_categories": {
+          "capacity": 56
+        },
+        "runtime_budget_exhausted_valid": 48,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 349,
+            "mean_valid": 52.96607836018074,
+            "sum_valid": 18485.161347703077
+          },
+          "agent_tokens": {
+            "available_valid": 349,
+            "mean_valid": 18623.372492836676,
+            "sum_valid": 6499557
+          },
+          "detector_tokens": {
+            "available_valid": 349,
+            "mean_valid": 3778.3839541547277,
+            "sum_valid": 1318656
+          }
+        }
+      },
+      "none": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 331,
+        "asr_valid": 0.817283950617284,
+        "success_fraction_all_planned_lower_bound": 0.817283950617284,
+        "success_fraction_all_planned_upper_bound": 0.817283950617284,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 50,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 53.35270541089093,
+            "sum_valid": 21607.845691410825
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 19589.683950617284,
+            "sum_valid": 7933822
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 80,
+        "asr_valid": 0.19753086419753085,
+        "success_fraction_all_planned_lower_bound": 0.19753086419753085,
+        "success_fraction_all_planned_upper_bound": 0.19753086419753085,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 15,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 16.096134131263803,
+            "sum_valid": 6518.93432316184
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 4200.930864197531,
+            "sum_valid": 1701377
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 273,
+        "asr_valid": 0.674074074074074,
+        "success_fraction_all_planned_lower_bound": 0.674074074074074,
+        "success_fraction_all_planned_upper_bound": 0.674074074074074,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 19,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 41.751362936981714,
+            "sum_valid": 16909.301989477593
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 13512.84938271605,
+            "sum_valid": 5472704
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    },
+    "qwen35-thinking": {
+      "llm_detector": {
+        "planned": 405,
+        "valid": 398,
+        "errors": 7,
+        "attack_successes_valid": 317,
+        "asr_valid": 0.7964824120603015,
+        "success_fraction_all_planned_lower_bound": 0.782716049382716,
+        "success_fraction_all_planned_upper_bound": 0.8,
+        "error_categories": {
+          "capacity": 7
+        },
+        "runtime_budget_exhausted_valid": 189,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 398,
+            "mean_valid": 70.06611959305802,
+            "sum_valid": 27886.315598037094
+          },
+          "agent_tokens": {
+            "available_valid": 398,
+            "mean_valid": 14002.21608040201,
+            "sum_valid": 5572882
+          },
+          "detector_tokens": {
+            "available_valid": 398,
+            "mean_valid": 2674.8643216080404,
+            "sum_valid": 1064596
+          }
+        }
+      },
+      "none": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 333,
+        "asr_valid": 0.8222222222222222,
+        "success_fraction_all_planned_lower_bound": 0.8222222222222222,
+        "success_fraction_all_planned_upper_bound": 0.8222222222222222,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 181,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 69.11809899257956,
+            "sum_valid": 27992.83009199472
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 14599.293827160494,
+            "sum_valid": 5912714
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 79,
+        "asr_valid": 0.19506172839506172,
+        "success_fraction_all_planned_lower_bound": 0.19506172839506172,
+        "success_fraction_all_planned_upper_bound": 0.19506172839506172,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 49,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 20.94339889324282,
+            "sum_valid": 8482.07655176334
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 3292.8962962962964,
+            "sum_valid": 1333623
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 319,
+        "asr_valid": 0.7876543209876543,
+        "success_fraction_all_planned_lower_bound": 0.7876543209876543,
+        "success_fraction_all_planned_upper_bound": 0.7876543209876543,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 149,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 65.33138438647062,
+            "sum_valid": 26459.210676520597
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 12343.807407407407,
+            "sum_valid": 4999242
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    },
+    "ministral3-14b": {
+      "llm_detector": {
+        "planned": 405,
+        "valid": 390,
+        "errors": 15,
+        "attack_successes_valid": 305,
+        "asr_valid": 0.782051282051282,
+        "success_fraction_all_planned_lower_bound": 0.7530864197530864,
+        "success_fraction_all_planned_upper_bound": 0.7901234567901234,
+        "error_categories": {
+          "capacity": 9,
+          "invalid_detector_output": 6
+        },
+        "runtime_budget_exhausted_valid": 35,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 1,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 390,
+            "mean_valid": 46.81579483343432,
+            "sum_valid": 18258.159985039383
+          },
+          "agent_tokens": {
+            "available_valid": 390,
+            "mean_valid": 13341.428205128204,
+            "sum_valid": 5203157
+          },
+          "detector_tokens": {
+            "available_valid": 390,
+            "mean_valid": 3809.733333333333,
+            "sum_valid": 1485796
+          }
+        }
+      },
+      "none": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 311,
+        "asr_valid": 0.7679012345679013,
+        "success_fraction_all_planned_lower_bound": 0.7679012345679013,
+        "success_fraction_all_planned_upper_bound": 0.7679012345679013,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 15,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 35.32191252904128,
+            "sum_valid": 14305.374574261717
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 14357.725925925926,
+            "sum_valid": 5814879
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 78,
+        "asr_valid": 0.1925925925925926,
+        "success_fraction_all_planned_lower_bound": 0.1925925925925926,
+        "success_fraction_all_planned_upper_bound": 0.1925925925925926,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 5,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 10.708506147620946,
+            "sum_valid": 4336.944989786483
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 3468.7358024691357,
+            "sum_valid": 1404838
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 244,
+        "asr_valid": 0.6024691358024692,
+        "success_fraction_all_planned_lower_bound": 0.6024691358024692,
+        "success_fraction_all_planned_upper_bound": 0.6024691358024692,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 2,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 25.155276085699644,
+            "sum_valid": 10187.886814708356
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 8802.2,
+            "sum_valid": 3564891
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    },
+    "llama31-8b": {
+      "llm_detector": {
+        "planned": 405,
+        "valid": 273,
+        "errors": 132,
+        "attack_successes_valid": 116,
+        "asr_valid": 0.4249084249084249,
+        "success_fraction_all_planned_lower_bound": 0.28641975308641976,
+        "success_fraction_all_planned_upper_bound": 0.6123456790123457,
+        "error_categories": {
+          "invalid_detector_output": 123,
+          "capacity": 4,
+          "truncated_detector_output": 5
+        },
+        "runtime_budget_exhausted_valid": 67,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 16,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 273,
+            "mean_valid": 52.34905122075189,
+            "sum_valid": 14291.290983265266
+          },
+          "agent_tokens": {
+            "available_valid": 273,
+            "mean_valid": 18521.41391941392,
+            "sum_valid": 5056346
+          },
+          "detector_tokens": {
+            "available_valid": 273,
+            "mean_valid": 5155.959706959707,
+            "sum_valid": 1407577
+          }
+        }
+      },
+      "none": {
+        "planned": 405,
+        "valid": 404,
+        "errors": 1,
+        "attack_successes_valid": 241,
+        "asr_valid": 0.5965346534653465,
+        "success_fraction_all_planned_lower_bound": 0.5950617283950618,
+        "success_fraction_all_planned_upper_bound": 0.5975308641975309,
+        "error_categories": {
+          "legacy_none_capacity": 1
+        },
+        "runtime_budget_exhausted_valid": 47,
+        "message_budget_exhausted_valid": 53,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 404,
+            "mean_valid": 39.3661696416508,
+            "sum_valid": 15903.932535226922
+          },
+          "agent_tokens": {
+            "available_valid": 404,
+            "mean_valid": 63177.33663366337,
+            "sum_valid": 25523644
+          },
+          "detector_tokens": {
+            "available_valid": 404,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 47,
+        "asr_valid": 0.11604938271604938,
+        "success_fraction_all_planned_lower_bound": 0.11604938271604938,
+        "success_fraction_all_planned_upper_bound": 0.11604938271604938,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 11,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 10.288656788272208,
+            "sum_valid": 4166.905999250244
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 10698.446913580246,
+            "sum_valid": 4332871
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 205,
+        "asr_valid": 0.5061728395061729,
+        "success_fraction_all_planned_lower_bound": 0.5061728395061729,
+        "success_fraction_all_planned_upper_bound": 0.5061728395061729,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 20,
+        "message_budget_exhausted_valid": 20,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 26.35779309687377,
+            "sum_valid": 10674.906204233877
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 35139.22222222222,
+            "sum_valid": 14231385
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    },
+    "gpt-oss-20b-low": {
+      "llm_detector": {
+        "planned": 405,
+        "valid": 394,
+        "errors": 11,
+        "attack_successes_valid": 297,
+        "asr_valid": 0.7538071065989848,
+        "success_fraction_all_planned_lower_bound": 0.7333333333333333,
+        "success_fraction_all_planned_upper_bound": 0.7604938271604939,
+        "error_categories": {
+          "capacity": 11
+        },
+        "runtime_budget_exhausted_valid": 0,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 394,
+            "mean_valid": 8.508828746062717,
+            "sum_valid": 3352.4785259487107
+          },
+          "agent_tokens": {
+            "available_valid": 394,
+            "mean_valid": 8581.847715736041,
+            "sum_valid": 3381248
+          },
+          "detector_tokens": {
+            "available_valid": 394,
+            "mean_valid": 2933.6548223350255,
+            "sum_valid": 1155860
+          }
+        }
+      },
+      "none": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 308,
+        "asr_valid": 0.7604938271604939,
+        "success_fraction_all_planned_lower_bound": 0.7604938271604939,
+        "success_fraction_all_planned_upper_bound": 0.7604938271604939,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 0,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 5.90942053547198,
+            "sum_valid": 2393.315316866152
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 8520.718518518519,
+            "sum_valid": 3450891
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 79,
+        "asr_valid": 0.19506172839506172,
+        "success_fraction_all_planned_lower_bound": 0.19506172839506172,
+        "success_fraction_all_planned_upper_bound": 0.19506172839506172,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 0,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 2.5249454860012106,
+            "sum_valid": 1022.6029218304902
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 2082.777777777778,
+            "sum_valid": 843525
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 405,
+        "valid": 405,
+        "errors": 0,
+        "attack_successes_valid": 305,
+        "asr_valid": 0.7530864197530864,
+        "success_fraction_all_planned_lower_bound": 0.7530864197530864,
+        "success_fraction_all_planned_upper_bound": 0.7530864197530864,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 0,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 405,
+            "mean_valid": 6.454072687790994,
+            "sum_valid": 2613.8994385553524
+          },
+          "agent_tokens": {
+            "available_valid": 405,
+            "mean_valid": 7274.6024691358025,
+            "sum_valid": 2946214
+          },
+          "detector_tokens": {
+            "available_valid": 405,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    }
+  },
+  "by_topology_defense": {
+    "G(1,3)": {
+      "llm_detector": {
+        "planned": 810,
+        "valid": 776,
+        "errors": 34,
+        "attack_successes_valid": 631,
+        "asr_valid": 0.8131443298969072,
+        "success_fraction_all_planned_lower_bound": 0.7790123456790123,
+        "success_fraction_all_planned_upper_bound": 0.8209876543209876,
+        "error_categories": {
+          "capacity": 1,
+          "invalid_detector_output": 31,
+          "truncated_detector_output": 2
+        },
+        "runtime_budget_exhausted_valid": 7,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 1,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 776,
+            "mean_valid": 25.514382772642122,
+            "sum_valid": 19799.161031570286
+          },
+          "agent_tokens": {
+            "available_valid": 776,
+            "mean_valid": 8128.966494845361,
+            "sum_valid": 6308078
+          },
+          "detector_tokens": {
+            "available_valid": 776,
+            "mean_valid": 2078.4896907216494,
+            "sum_valid": 1612908
+          }
+        }
+      },
+      "none": {
+        "planned": 810,
+        "valid": 810,
+        "errors": 0,
+        "attack_successes_valid": 680,
+        "asr_valid": 0.8395061728395061,
+        "success_fraction_all_planned_lower_bound": 0.8395061728395061,
+        "success_fraction_all_planned_upper_bound": 0.8395061728395061,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 10,
+        "message_budget_exhausted_valid": 4,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 810,
+            "mean_valid": 22.59468728097351,
+            "sum_valid": 18301.696697588544
+          },
+          "agent_tokens": {
+            "available_valid": 810,
+            "mean_valid": 15169.765432098766,
+            "sum_valid": 12287510
+          },
+          "detector_tokens": {
+            "available_valid": 810,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 810,
+        "valid": 810,
+        "errors": 0,
+        "attack_successes_valid": 174,
+        "asr_valid": 0.21481481481481482,
+        "success_fraction_all_planned_lower_bound": 0.21481481481481482,
+        "success_fraction_all_planned_upper_bound": 0.21481481481481482,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 3,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 810,
+            "mean_valid": 7.107944937701694,
+            "sum_valid": 5757.435399538372
+          },
+          "agent_tokens": {
+            "available_valid": 810,
+            "mean_valid": 2998.3246913580247,
+            "sum_valid": 2428643
+          },
+          "detector_tokens": {
+            "available_valid": 810,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 810,
+        "valid": 810,
+        "errors": 0,
+        "attack_successes_valid": 604,
+        "asr_valid": 0.745679012345679,
+        "success_fraction_all_planned_lower_bound": 0.745679012345679,
+        "success_fraction_all_planned_upper_bound": 0.745679012345679,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 7,
+        "message_budget_exhausted_valid": 1,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 810,
+            "mean_valid": 18.212169172769457,
+            "sum_valid": 14751.857029943261
+          },
+          "agent_tokens": {
+            "available_valid": 810,
+            "mean_valid": 9179.433333333332,
+            "sum_valid": 7435341
+          },
+          "detector_tokens": {
+            "available_valid": 810,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    },
+    "G(3,3)": {
+      "llm_detector": {
+        "planned": 810,
+        "valid": 701,
+        "errors": 109,
+        "attack_successes_valid": 360,
+        "asr_valid": 0.5135520684736091,
+        "success_fraction_all_planned_lower_bound": 0.4444444444444444,
+        "success_fraction_all_planned_upper_bound": 0.5790123456790124,
+        "error_categories": {
+          "capacity_trace_evidence": 1,
+          "capacity": 64,
+          "invalid_detector_output": 42,
+          "truncated_detector_output": 2
+        },
+        "runtime_budget_exhausted_valid": 87,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 2,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 701,
+            "mean_valid": 47.092558485404,
+            "sum_valid": 33011.8834982682
+          },
+          "agent_tokens": {
+            "available_valid": 701,
+            "mean_valid": 12735.607703281026,
+            "sum_valid": 8927661
+          },
+          "detector_tokens": {
+            "available_valid": 701,
+            "mean_valid": 3205.330955777461,
+            "sum_valid": 2246937
+          }
+        }
+      },
+      "none": {
+        "planned": 810,
+        "valid": 809,
+        "errors": 1,
+        "attack_successes_valid": 443,
+        "asr_valid": 0.5475896168108776,
+        "success_fraction_all_planned_lower_bound": 0.5469135802469136,
+        "success_fraction_all_planned_upper_bound": 0.5481481481481482,
+        "error_categories": {
+          "legacy_none_capacity": 1
+        },
+        "runtime_budget_exhausted_valid": 71,
+        "message_budget_exhausted_valid": 4,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 809,
+            "mean_valid": 41.135617649801446,
+            "sum_valid": 33278.71467868937
+          },
+          "agent_tokens": {
+            "available_valid": 809,
+            "mean_valid": 18102.95179233622,
+            "sum_valid": 14645288
+          },
+          "detector_tokens": {
+            "available_valid": 809,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 810,
+        "valid": 810,
+        "errors": 0,
+        "attack_successes_valid": 62,
+        "asr_valid": 0.07654320987654321,
+        "success_fraction_all_planned_lower_bound": 0.07654320987654321,
+        "success_fraction_all_planned_upper_bound": 0.07654320987654321,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 12,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 810,
+            "mean_valid": 11.387398243359186,
+            "sum_valid": 9223.792577120941
+          },
+          "agent_tokens": {
+            "available_valid": 810,
+            "mean_valid": 3512.8172839506174,
+            "sum_valid": 2845382
+          },
+          "detector_tokens": {
+            "available_valid": 810,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 810,
+        "valid": 810,
+        "errors": 0,
+        "attack_successes_valid": 360,
+        "asr_valid": 0.4444444444444444,
+        "success_fraction_all_planned_lower_bound": 0.4444444444444444,
+        "success_fraction_all_planned_upper_bound": 0.4444444444444444,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 49,
+        "message_budget_exhausted_valid": 1,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 810,
+            "mean_valid": 33.054283655427945,
+            "sum_valid": 26773.969760896638
+          },
+          "agent_tokens": {
+            "available_valid": 810,
+            "mean_valid": 12251.366666666667,
+            "sum_valid": 9923607
+          },
+          "detector_tokens": {
+            "available_valid": 810,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    },
+    "G33-P3": {
+      "llm_detector": {
+        "planned": 810,
+        "valid": 720,
+        "errors": 90,
+        "attack_successes_valid": 658,
+        "asr_valid": 0.9138888888888889,
+        "success_fraction_all_planned_lower_bound": 0.8123456790123457,
+        "success_fraction_all_planned_upper_bound": 0.9234567901234568,
+        "error_categories": {
+          "capacity_trace_evidence": 3,
+          "capacity": 30,
+          "invalid_detector_output": 56,
+          "truncated_detector_output": 1
+        },
+        "runtime_budget_exhausted_valid": 289,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 14,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 720,
+            "mean_valid": 65.06616056783176,
+            "sum_valid": 46847.63560883887
+          },
+          "agent_tokens": {
+            "available_valid": 720,
+            "mean_valid": 22917.104166666668,
+            "sum_valid": 16500315
+          },
+          "detector_tokens": {
+            "available_valid": 720,
+            "mean_valid": 5106.9625,
+            "sum_valid": 3677013
+          }
+        }
+      },
+      "none": {
+        "planned": 810,
+        "valid": 810,
+        "errors": 0,
+        "attack_successes_valid": 746,
+        "asr_valid": 0.9209876543209876,
+        "success_fraction_all_planned_lower_bound": 0.9209876543209876,
+        "success_fraction_all_planned_upper_bound": 0.9209876543209876,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 270,
+        "message_budget_exhausted_valid": 47,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 810,
+            "mean_valid": 59.5122339808911,
+            "sum_valid": 48204.90952452179
+          },
+          "agent_tokens": {
+            "available_valid": 810,
+            "mean_valid": 35639.73209876543,
+            "sum_valid": 28868183
+          },
+          "detector_tokens": {
+            "available_valid": 810,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "promptguard": {
+        "planned": 810,
+        "valid": 810,
+        "errors": 0,
+        "attack_successes_valid": 215,
+        "asr_valid": 0.2654320987654321,
+        "success_fraction_all_planned_lower_bound": 0.2654320987654321,
+        "success_fraction_all_planned_upper_bound": 0.2654320987654321,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 73,
+        "message_budget_exhausted_valid": 0,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 810,
+            "mean_valid": 17.60687404650229,
+            "sum_valid": 14261.567977666855
+          },
+          "agent_tokens": {
+            "available_valid": 810,
+            "mean_valid": 7023.779012345679,
+            "sum_valid": 5689261
+          },
+          "detector_tokens": {
+            "available_valid": 810,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      },
+      "protectai": {
+        "planned": 810,
+        "valid": 810,
+        "errors": 0,
+        "attack_successes_valid": 722,
+        "asr_valid": 0.891358024691358,
+        "success_fraction_all_planned_lower_bound": 0.891358024691358,
+        "success_fraction_all_planned_upper_bound": 0.891358024691358,
+        "error_categories": {},
+        "runtime_budget_exhausted_valid": 174,
+        "message_budget_exhausted_valid": 18,
+        "token_usage_incomplete_valid": 0,
+        "costs": {
+          "elapsed_seconds": {
+            "available_valid": 810,
+            "mean_valid": 50.471370953959585,
+            "sum_valid": 40881.810472707264
+          },
+          "agent_tokens": {
+            "available_valid": 810,
+            "mean_valid": 24231.93950617284,
+            "sum_valid": 19627871
+          },
+          "detector_tokens": {
+            "available_valid": 810,
+            "mean_valid": 0,
+            "sum_valid": 0
+          }
+        }
+      }
+    }
+  },
+  "notes": [
+    "ERROR outcomes are not defense successes or ordinary attack failures.",
+    "ASR_valid conditions on completed outcomes; bounds keep all planned outcomes without imputing errors.",
+    "Cost differences on paired completed trials include changed execution paths, not isolated detector latency.",
+    "Detector token counts do not measure PA/PG classifier computation; token totals may be incomplete on ERROR.",
+    "None has zero detector tokens by design; raw guard_usage is left untouched. Recorded token costs on incomplete usage are lower bounds.",
+    "Runtime budget exhaustion is a recorded outcome, not an infrastructure failure.",
+    "No benign false-positive estimate or change in guidance-feedback interaction is inferred.",
+    "Canonical raw lines are selected verbatim; original run files and failed attempts remain remote."
+  ]
+}

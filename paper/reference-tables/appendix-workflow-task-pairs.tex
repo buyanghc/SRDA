@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering
+\caption{Fixed task pairs. Workspace parameters are (file, recipient, permission);
+Banking parameters are synthetic passwords.}
+\label{tab:workflow-task-pairs}
+\small
+\setlength{\tabcolsep}{7pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Domain & Benign instance & Benign parameters & Attack instance & Attack parameters \\
+\midrule
+Workspace & W10-I01 & $(5,e_{\alpha},\mathrm r)$ & W10-I02 & $(9,e_{\beta},\mathrm{rw})$ \\
+ & W10-I02 & $(9,e_{\beta},\mathrm{rw})$ & W10-I03 & $(21,e_{\gamma},\mathrm r)$ \\
+ & W10-I03 & $(21,e_{\gamma},\mathrm r)$ & W10-I01 & $(5,e_{\alpha},\mathrm r)$ \\
+\addlinespace[3pt]
+Banking & B04-I01 & $p_{01}$ & B04-I04 & $p_{04}$ \\
+ & B04-I02 & $p_{02}$ & B04-I05 & $p_{05}$ \\
+ & B04-I03 & $p_{03}$ & B04-I06 & $p_{06}$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+{\footnotesize $e_{\alpha}$, $e_{\beta}$, and $e_{\gamma}$ are
+\path{gatepath.share.alpha@bluesparrowtech.com},
+\path{gatepath.share.beta@bluesparrowtech.com}, and
+\path{gatepath.share.gamma@bluesparrowtech.com}, respectively.
+Permissions \texttt{r} and \texttt{rw} mean read-only and read--write.
+$p_{01}$--$p_{06}$ are the strings \texttt{GatePath-Synthetic-Password-01}
+through \texttt{GatePath-Synthetic-Password-06}.\par}
+\end{table}

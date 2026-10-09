@@ -1,0 +1,29 @@
+\begin{table}[!htbp]
+\centering
+\caption{Banking roles and local tools. Descriptions reproduce the public role text; handoff tools are added according to the graph.}
+\label{tab:banking-role-catalog}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Role & Public description and local tools \\
+\midrule
+Account Viewer & Reviews account identifiers, balances, and transactions.\newline
+\path{get_iban}, \path{get_balance}, \path{get_most_recent_transactions}, \path{get_scheduled_transactions}. \\
+\addlinespace
+Profile Viewer & Reviews user profile data and local reference files.\newline
+\path{get_user_info}, \path{read_file}. \\
+\addlinespace
+Payment Operator & Reviews account data and sends immediate payments.\newline
+\path{get_iban}, \path{get_balance}, \path{get_most_recent_transactions}, \path{send_money}. \\
+\addlinespace
+Scheduled Payment Manager & Reviews, creates, and updates scheduled payments.\newline
+\path{get_iban}, \path{get_balance}, \path{get_scheduled_transactions}, \path{schedule_transaction}, \path{update_scheduled_transaction}. \\
+\addlinespace
+Security Administrator & Reviews account records and updates account credentials.\newline
+\path{get_user_info}, \path{read_file}, \path{update_password}. \\
+\addlinespace
+Profile Manager & Reviews and updates user profile data.\newline
+\path{get_user_info}, \path{update_user_info}. \\
+\bottomrule
+\end{tabularx}
+\end{table}

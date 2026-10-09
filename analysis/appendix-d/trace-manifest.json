@@ -1,0 +1,35 @@
+[
+  {
+    "category": "direct",
+    "campaign": "qwen3.5-9B-nothinking",
+    "condition": "forward-natural",
+    "episode_key": "B04-I03__g-b1-d3__r000",
+    "sha256": "155157d55ec30cfcbce894e9ed8b8af11f1293d9d7a3a9f57ddd1859d3c7de75",
+    "success": true,
+    "messages": 3,
+    "path": "trace-direct.json",
+    "release_sha256": "e1cfe7e7370bf8163bb6feaba401395482d6e330c3ab3f4addf44a396d5df89c"
+  },
+  {
+    "category": "recovery",
+    "campaign": "qwen3.5-9B-nothinking",
+    "condition": "forward-natural",
+    "episode_key": "B04-I03__g-b3-d3__r000",
+    "sha256": "47b84356908ed472eee7b812287f7185392ee0a52d6a07cf6d4f6aa62e7a96ec",
+    "success": true,
+    "messages": 7,
+    "path": "trace-recovery.json",
+    "release_sha256": "3b4e2dd7612e4a932a091f97205f3cf5e2035e2bef1f45a47ea5e113387beea2"
+  },
+  {
+    "category": "unsuccessful",
+    "campaign": "qwen3.5-9B-nothinking",
+    "condition": "forward-terminal",
+    "episode_key": "B04-I03__g-b3-d3__r000",
+    "sha256": "e82121f744a6da5717464589f9fffb371abb9619d875d31379510ba79df02a95",
+    "success": false,
+    "messages": 4,
+    "path": "trace-unsuccessful.json",
+    "release_sha256": "19eed481939dea35b6fe2ca99823503238d1057cba29b063a35ec8158dbbe972"
+  }
+]

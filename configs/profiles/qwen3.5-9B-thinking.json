@@ -1,0 +1,253 @@
+{
+  "profile": "qwen3.5-9B-thinking",
+  "files": {
+    "SOURCE.json": {
+      "source": "src/variants/qwen3.5-9B-nothinking/SOURCE.json",
+      "sha256": "21203002cbb76722b9ca49d42bb2c0784ac68cd51ec7cb5cc18a86426669d024"
+    },
+    "configs/request_response_final_forward_empty_full.yaml": {
+      "source": "src/configs/request_response_final_forward_empty_full.yaml",
+      "sha256": "322a89a31fe422b493c05aaebde043335b6cb4079cda051ff91ebfb3a2366fb7"
+    },
+    "configs/request_response_final_forward_natural_full.yaml": {
+      "source": "src/configs/request_response_final_forward_natural_full.yaml",
+      "sha256": "49bc0dcb527fd5222f9c0c6bedb430add6047cd45db70c81af12c89f82741ae9"
+    },
+    "configs/request_response_final_forward_terminal_full.yaml": {
+      "source": "src/configs/request_response_final_forward_terminal_full.yaml",
+      "sha256": "53f3015f3b2692017436d5da53d4837436c183e038fe537ad8cd996e34b160c5"
+    },
+    "configs/request_response_final_system_empty_full.yaml": {
+      "source": "src/configs/request_response_final_system_empty_full.yaml",
+      "sha256": "2275142b42a99b2e1f0db40491dba596e1f278732e4264989755f0345488c7a8"
+    },
+    "configs/request_response_final_system_natural_full.yaml": {
+      "source": "src/configs/request_response_final_system_natural_full.yaml",
+      "sha256": "8f730af2fb63685a1dfd3f4af8894b07070e4d071da563563099edbfb9db2db8"
+    },
+    "configs/request_response_final_system_terminal_full.yaml": {
+      "source": "src/configs/request_response_final_system_terminal_full.yaml",
+      "sha256": "d2ff938a411c928f3813ee46f26a003acee2854129d4e6bb29eb6b1e2e6b1f3a"
+    },
+    "configs/semantic_workflow_mixed_full.yaml": {
+      "source": "src/configs/semantic_workflow_mixed_full.yaml",
+      "sha256": "e3700dc94268ce6b24793d5b931481f923294e159a8891a82d4f60164cae36ad"
+    },
+    "configs/semantic_workflow_system_only_mixed_full.yaml": {
+      "source": "src/configs/semantic_workflow_system_only_mixed_full.yaml",
+      "sha256": "047f2881936a2fada77257ebf08781ff7c09140b8d76cad86d629dd0a66664fc"
+    },
+    "gatepath/__init__.py": {
+      "source": "src/gatepath/__init__.py",
+      "sha256": "bcf73921d8534bcf7663c4d14bf4ab9dc9672a2aef1621eb870ff96614e7cfbc"
+    },
+    "gatepath/agentdojo_adapter.py": {
+      "source": "src/gatepath/agentdojo_adapter.py",
+      "sha256": "10e15058a8071241609cd8efdd790f9eddf71d07cf7bd5269c4609db8727ce37"
+    },
+    "gatepath/agentdojo_verifier.py": {
+      "source": "src/gatepath/agentdojo_verifier.py",
+      "sha256": "3c8dbdb6c96f70413608f2c3fa65edd469ae061101eb05afb28b94cecda92d2a"
+    },
+    "gatepath/autogen_runtime.py": {
+      "source": "src/gatepath/autogen_runtime.py",
+      "sha256": "5bde3dce2665ec7a71a7ee0d9aa41eb27e2ea1d5c3abdae32872edb1d1545e1d"
+    },
+    "gatepath/broadcast_controller.py": {
+      "source": "src/gatepath/broadcast_controller.py",
+      "sha256": "1eed36a6bcf0858add14e26aa7d797dbee166895e196e5dd1ac824c067192422"
+    },
+    "gatepath/broadcast_protocol.py": {
+      "source": "src/gatepath/broadcast_protocol.py",
+      "sha256": "da38db6b44599ce6ce8cd7d8b2045efa9c8bd66d4e90a147a684af8239044ec5"
+    },
+    "gatepath/broadcast_runner.py": {
+      "source": "src/gatepath/broadcast_runner.py",
+      "sha256": "29e55818893f747d3120b69b26dbd6b5a1c2b9c8a7129046ec483461f809703f"
+    },
+    "gatepath/broadcast_runtime.py": {
+      "source": "src/gatepath/broadcast_runtime.py",
+      "sha256": "c1e471340000e7d616b020da8ec6775f35937c7bb3d4d52b0fd9f174811cc698"
+    },
+    "gatepath/data/formal_target_instances_v1_2_2.yaml": {
+      "source": "src/gatepath/data/formal_target_instances_v1_2_2.yaml",
+      "sha256": "988d44bd59d613e8ec98290a092aba185e22c999eba394ecd383a75556d25d80"
+    },
+    "gatepath/data/formal_target_selection_3_per_type_v1.yaml": {
+      "source": "src/gatepath/data/formal_target_selection_3_per_type_v1.yaml",
+      "sha256": "cd1db50f3a2aee97dbe50be29b856d4f96a34f780d0f975d9ebb877fa6d3d8f4"
+    },
+    "gatepath/deepseek_balance.py": {
+      "source": "src/gatepath/deepseek_balance.py",
+      "sha256": "6e82e8514eb27a86c1b15f3f7b2a441f04f6d77b06103e2524a98a74f3817aba"
+    },
+    "gatepath/deepseek_model_client.py": {
+      "source": "src/gatepath/deepseek_model_client.py",
+      "sha256": "7b22eaea0e1208463631b968b1cb0b5c00ce671e3d99f4da4c3bcfc10743bcdc"
+    },
+    "gatepath/direct_batch.py": {
+      "source": "src/gatepath/direct_batch.py",
+      "sha256": "9c2bc100d44b412b01551d8b7d3a0b084548b1ed3b0233deaee12477db86e5c7"
+    },
+    "gatepath/direct_runner.py": {
+      "source": "src/gatepath/direct_runner.py",
+      "sha256": "675eb3db84cd93ca7ba8ef9c26e7234ebaf1e6b8832042f6219d4f1d5d35d080"
+    },
+    "gatepath/environment.py": {
+      "source": "src/gatepath/environment.py",
+      "sha256": "60aa482e8a0d2cb1dbe189c6da3cc9c42f82730ba87894accad6424058e63052"
+    },
+    "gatepath/evaluator.py": {
+      "source": "src/gatepath/evaluator.py",
+      "sha256": "3d3f2dbb94018e8fa1bd01807b1f91f8c7f20a1572f3c41bbf3231a5290d7579"
+    },
+    "gatepath/experiment_graphs.py": {
+      "source": "src/gatepath/experiment_graphs.py",
+      "sha256": "87598d05ef9cf9d0f45c33cd0d104367a6be28dd2ebab4d41ed018fcb747a9ba"
+    },
+    "gatepath/feedback.py": {
+      "source": "src/gatepath/feedback.py",
+      "sha256": "9e4b888b1f6473e36459f3a8ca5cff4ac5fd1bcec0d0d9dd4ebaca642fe594ad"
+    },
+    "gatepath/mixed_workflow.py": {
+      "source": "src/variants/qwen3-14b/gatepath/mixed_workflow.py",
+      "sha256": "1f6a6aa33ac55b8302ef6794c97faff42d771a67e2c7a50ed68fef7e16e7c2cf"
+    },
+    "gatepath/mixed_workflow_batch.py": {
+      "source": "src/gatepath/mixed_workflow_batch.py",
+      "sha256": "2eaf828355afb6d23e1ae029ca1432f15deb33d3f2fe96ef2d84ecb3026accb3"
+    },
+    "gatepath/models.py": {
+      "source": "src/gatepath/models.py",
+      "sha256": "2d5e89c5097cf03996c2cf133aeef7ddc98db9df0c7e91a6b3ad03e2da0681d6"
+    },
+    "gatepath/preflight.py": {
+      "source": "src/gatepath/preflight.py",
+      "sha256": "844b88be9b4e65d154970e5cc3c61ec32359be75e5e8c71e64d56f3e1a5e0b9a"
+    },
+    "gatepath/protocol.py": {
+      "source": "src/gatepath/protocol.py",
+      "sha256": "1b09b509511cde82870953d7fb6bd9b31a45eb0161559fc6237c12cefc4f958f"
+    },
+    "gatepath/qwen_controller.py": {
+      "source": "src/gatepath/qwen_controller.py",
+      "sha256": "2777d343dbf3ccabde0b8a787bc4552d139489c5e7fbe1bf3368a006dc050fbe"
+    },
+    "gatepath/request_response_batch.py": {
+      "source": "src/gatepath/request_response_batch.py",
+      "sha256": "80de29c6287f1e82b68cdb11a16f3d31291c850be251d6ce41014d5771cb9edf"
+    },
+    "gatepath/request_response_protocol.py": {
+      "source": "src/gatepath/request_response_protocol.py",
+      "sha256": "3018a2f80cb1bd38524ab01e4cf2aedc37399309db8eb0d4dde43f51e92bf5e0"
+    },
+    "gatepath/request_response_runner.py": {
+      "source": "src/variants/qwen3.5-9B-nothinking/gatepath/request_response_runner.py",
+      "sha256": "56566df1077948abdfb76ed773e9c482e8b24e29122ebc75bef12a262b7e575f"
+    },
+    "gatepath/request_response_runtime.py": {
+      "source": "src/variants/qwen3-14b/gatepath/request_response_runtime.py",
+      "sha256": "78cc55b97bfce7cacd152dda3f0189cc8978ab6c73b6a9bf3f2089c691794dcc"
+    },
+    "gatepath/role_assignment.py": {
+      "source": "src/gatepath/role_assignment.py",
+      "sha256": "b3b3ba87992c1dec4f8d3c714ce48041bfbf43f97aa3091627d949cca94dcae3"
+    },
+    "gatepath/role_catalog.py": {
+      "source": "src/gatepath/role_catalog.py",
+      "sha256": "584731d1e3ad1a3f438d842134bc2b30ea1509a44bb7b416181f8ed3074e9e91"
+    },
+    "gatepath/sandbox.py": {
+      "source": "src/gatepath/sandbox.py",
+      "sha256": "f0282e810626468be8e93c9457ab132d479cb3de57a96443f0f90213fc30399e"
+    },
+    "gatepath/target_catalog.py": {
+      "source": "src/gatepath/target_catalog.py",
+      "sha256": "baf1b4272adccc8f2705596c4af932279fdd82c2127ba5cc8082d9b92f5f3ec4"
+    },
+    "gatepath/target_instances.py": {
+      "source": "src/gatepath/target_instances.py",
+      "sha256": "fecbfe44798247eefe920f9999a2d94bee60705c721b0ee5e7227d6d2ada1a9c"
+    },
+    "gatepath/tool_pair_safe_context.py": {
+      "source": "src/gatepath/tool_pair_safe_context.py",
+      "sha256": "a65d7af969222eeb84ac70f6f4a5afdd8a0d38968f2914d8c8d9ade2fd99ab2f"
+    },
+    "gatepath/workflow_batch.py": {
+      "source": "src/gatepath/workflow_batch.py",
+      "sha256": "83063c206987e8275438ccb34a167db59604eab02f1be2289fd5e91a167bb34a"
+    },
+    "gatepath/workflow_graphs.py": {
+      "source": "src/gatepath/workflow_graphs.py",
+      "sha256": "1f787c6278130c7bc490b30fa13475ac41b800683761b8633aa140190f847441"
+    },
+    "gatepath/workflow_role_catalog.py": {
+      "source": "src/gatepath/workflow_role_catalog.py",
+      "sha256": "2fb226e500ec63941e50bb183da6aae4c4a05745fcf0781b5cec848febce69c4"
+    },
+    "gatepath/workflow_scenarios.py": {
+      "source": "src/gatepath/workflow_scenarios.py",
+      "sha256": "09460c67b5caafa02b5c5be09a213c2a00ff875ba9617f9ee9caabeaab608031"
+    },
+    "gatepath/world.py": {
+      "source": "src/gatepath/world.py",
+      "sha256": "ce490181395a4e80fcca70c64774faaf1c68c7b1f15415ffc428d5bd9a636885"
+    },
+    "model.json": {
+      "source": "src/model.json",
+      "sha256": "a471a2a606d395bd1c33199cb58a67a62a6df8255aaeb7c685f397380bdc063f"
+    },
+    "nci/qwen-service-provenance.json": {
+      "source": "src/nci/qwen-service-provenance.json",
+      "sha256": "1132d9eb7914a9f9f2f3be9dddeee246c7d03ca5cd5d2e184bf90b5e0e8f6d5a"
+    },
+    "nci/requirements-controller.lock.txt": {
+      "source": "src/nci/requirements-controller.lock.txt",
+      "sha256": "7d1e83ab1d39df779fec59b8107fc1419e815628c930b65992e6cd30e741c3bb"
+    },
+    "nci/requirements-qwen-service.lock.txt": {
+      "source": "src/nci/requirements-qwen-service.lock.txt",
+      "sha256": "111654dade261095b1736b8b9b2b071e71183b0aa7cc7e1859ca7ee14c05b283"
+    },
+    "pyproject.toml": {
+      "source": "src/pyproject.toml",
+      "sha256": "25ec725cc7917ef04fbb5b52bc4076d0baf27534ade4d7efd54c4811868afd71"
+    },
+    "scripts/run_mixed_workflow_batch.py": {
+      "source": "src/scripts/run_mixed_workflow_batch.py",
+      "sha256": "774d471013925c89658cdffbdf79d2e2526d14bd626371ca13883c40b7f3b70d"
+    },
+    "scripts/run_request_response_batch.py": {
+      "source": "src/scripts/run_request_response_batch.py",
+      "sha256": "06a2a94e6cf0a45111bfec59a0f4e7b1512e5f5947ff1f1ee06c0f810a64fce6"
+    },
+    "scripts/run_semantic_workflow_batch.py": {
+      "source": "src/scripts/run_semantic_workflow_batch.py",
+      "sha256": "f0fe6f8434b6d37a57657c571f4975673d1230b59040de528172702ca99e2d88"
+    },
+    "tests/test_experiment_graphs.py": {
+      "source": "src/tests/test_experiment_graphs.py",
+      "sha256": "78e4e5a32c3aadf27a8ecfddba51fca2a33db41bf7bda7e104d6007495ae13d9"
+    },
+    "tests/test_final_main_experiments.py": {
+      "source": "src/tests/test_final_main_experiments.py",
+      "sha256": "314e67cb60e931cd2b0b24ec963cb71af41af38cf52a521dd7b2a2abe2b59209"
+    },
+    "tests/test_formal_target_catalog.py": {
+      "source": "src/tests/test_formal_target_catalog.py",
+      "sha256": "c3eb9c74197a7dab9a027485a178078130cb87ff93294fb8d2baa37e2cc9f2d3"
+    },
+    "tests/test_formal_target_instances.py": {
+      "source": "src/tests/test_formal_target_instances.py",
+      "sha256": "a848b11717ddf97c9558ed20c1a8480f485a90c9b4f682fc0459a3fbd83ee40a"
+    },
+    "tests/test_mixed_workflow.py": {
+      "source": "src/tests/test_mixed_workflow.py",
+      "sha256": "7289b8d06dd1117070009dbdbc602f2141034d56a1f0fd35be325d34d0e0885c"
+    },
+    "tests/test_request_response_routes.py": {
+      "source": "src/tests/test_request_response_routes.py",
+      "sha256": "bb668fd8519ee8f2fbf7aad891901d85fef6f7b2a89193cbacffb2344338e3e4"
+    }
+  }
+}

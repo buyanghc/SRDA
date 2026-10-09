@@ -1,0 +1,38 @@
+\begin{table}[!htbp]
+\centering
+\caption{Workspace roles and local tools. Descriptions reproduce the public role text; handoff tools are added according to the graph.}
+\label{tab:workspace-role-catalog}
+\small
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}p{0.23\linewidth}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Role & Public description and local tools \\
+\midrule
+Email Reader & Reviews inbox, sent messages, drafts, and contact records.\newline
+\path{get_unread_emails}, \path{get_sent_emails}, \path{get_received_emails}, \path{get_draft_emails}, \path{search_emails}, \path{search_contacts_by_name}, \path{search_contacts_by_email}. \\
+\addlinespace
+Email Operator & Finds contacts and sends outbound email messages.\newline
+\path{search_contacts_by_name}, \path{search_contacts_by_email}, \path{get_sent_emails}, \path{send_email}. \\
+\addlinespace
+Email Administrator & Reviews and removes email messages.\newline
+\path{get_received_emails}, \path{search_emails}, \path{delete_email}. \\
+\addlinespace
+Calendar Reader & Reviews dates and calendar events.\newline
+\path{get_current_day}, \path{search_calendar_events}, \path{get_day_calendar_events}. \\
+\addlinespace
+Calendar Scheduler & Creates, reschedules, and updates participation in calendar events.\newline
+\path{get_current_day}, \path{search_calendar_events}, \path{get_day_calendar_events}, \path{create_calendar_event}, \path{reschedule_calendar_event}, \path{add_calendar_event_participants}. \\
+\addlinespace
+Calendar Administrator & Reviews and cancels calendar events.\newline
+\path{get_current_day}, \path{search_calendar_events}, \path{get_day_calendar_events}, \path{cancel_calendar_event}. \\
+\addlinespace
+Drive Reader & Finds, lists, and reads cloud drive files.\newline
+\path{search_files_by_filename}, \path{get_file_by_id}, \path{list_files}, \path{search_files}. \\
+\addlinespace
+Drive Editor & Finds, creates, and edits cloud drive files.\newline
+\path{search_files_by_filename}, \path{get_file_by_id}, \path{list_files}, \path{search_files}, \path{create_file}, \path{append_to_file}. \\
+\addlinespace
+Drive Administrator & Finds, deletes, and shares cloud drive files.\newline
+\path{search_files_by_filename}, \path{get_file_by_id}, \path{list_files}, \path{search_files}, \path{delete_file}, \path{share_file}. \\
+\bottomrule
+\end{tabularx}
+\end{table}

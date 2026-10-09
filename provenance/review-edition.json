@@ -1,0 +1,23 @@
+{
+  "complete_archive_commit": "da81aa0e2b620ddfa4b670f5f150dbbe729564b8",
+  "complete_archive": "https://github.com/buyanghc/SRDA/tree/da81aa0e2b620ddfa4b670f5f150dbbe729564b8",
+  "runtime_deduplication": "Exact byte SHA256 equality, not semantic rewriting; profile manifests reconstruct frozen source trees.",
+  "profile_file_counts": {
+    "defenses": 66,
+    "qwen3-14b": 59,
+    "qwen3.5-9B-nothinking": 62,
+    "qwen3.5-9B-thinking": 62,
+    "ministral3-14b": 62,
+    "gpt-oss-20b-low": 64,
+    "llama3.1-8b": 63
+  },
+  "unique_frozen_files": 98,
+  "observations": {
+    "controlled": 68040,
+    "workflows": 1296,
+    "defenses": 9720
+  },
+  "omitted": "Bulk workflow/defense trajectories, operational preparation logs, duplicate frozen files, generated previews.",
+  "compression": "Controlled CSV and config JSON, defense final metrics and canonical lineage: lossless gzip; workflow: gzip-compressed metric/protocol projection of all executions.",
+  "limitations": "Existing Qwen3 controlled-weight revision gap and undecided release license remain; no new GPU inference validation."
+}

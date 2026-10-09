@@ -1,0 +1,26 @@
+{
+  "episodes": 9720,
+  "metrics": [
+    {
+      "path": "results/defenses/metrics/part-000.jsonl.gz",
+      "records": 8903,
+      "sha256": "fec0e54c2f62d92661961a9848da3ecf327093681b72886571b9a6ede1d2a3fc",
+      "uncompressed_sha256": "d2c96485de0ce8e350e66a9901bbf8eb26b678f1f3475be3bbb268a25d4668e8"
+    },
+    {
+      "path": "results/defenses/metrics/part-001.jsonl.gz",
+      "records": 817,
+      "sha256": "cee562dbaf8190793213284ce0d6c2bf2d1f7c473fd6f6fa91ad5cd3f556bb42",
+      "uncompressed_sha256": "fce646e79bb34d05e4390cee0fd35231a9e04260a216d335be1e8db5e4175437"
+    }
+  ],
+  "lineage": [
+    {
+      "path": "provenance/defense-lineage/part-000.jsonl.gz",
+      "records": 9720,
+      "sha256": "c3844dcb6588103ef7766567f990c80eb19d15bcac31835faf85420c096c4b63",
+      "uncompressed_sha256": "9be2873ea01a86b2338ba68395ee70f0b22a345b522d959c5c4560c9219a4a0f"
+    }
+  ],
+  "representation": "Lossless final metrics and canonical-key lineage; full trajectories in pinned complete archive."
+}

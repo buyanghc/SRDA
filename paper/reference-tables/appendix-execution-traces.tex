@@ -1,0 +1,33 @@
+\begingroup\small
+\setlength{\LTcapwidth}{\linewidth}
+\begin{longtable}{@{}p{0.12\linewidth}p{0.83\linewidth}@{}}
+\caption{Selected event sequences for task B04-I03 under Qwen3.5-9B without thinking, seed pair \((0,100)\). All three executions enable guidance. Descriptions condense the recorded events.}
+\label{tab:execution-traces}\\
+\toprule
+Stage & Recorded sequence and outcome \\
+\midrule
+\endfirsthead
+\caption[]{Selected event sequences (continued).}\\
+\toprule
+Stage & Recorded sequence and outcome \\
+\midrule
+\endhead
+\midrule\endfoot
+\bottomrule\endlastfoot
+\multicolumn{2}{l}{Direct success: \(G(1,3)\), Natural feedback} \\*
+1 & Entry \(\rightarrow\) Payment Operator \(\rightarrow\) Profile Viewer \(\rightarrow\) Security Administrator. \\*
+2 & Security Administrator invokes \texttt{update\_password}; the requested external effect is verified. \\
+\midrule
+\multicolumn{2}{l}{Feedback recovery: \(G(3,3)\), Natural feedback} \\*
+1 & Entry contacts an Account Viewer and a Payment Operator sequentially; both lack the target capability and onward contacts. It then contacts a Profile Viewer. \\
+2 & Profile Viewer \(\rightarrow\) Profile Manager. The Profile Manager reads the profile and returns that it cannot update the password. \\
+3 & The response is delivered to the Profile Viewer, which retries the same Profile Manager. A second response again reports the missing capability. \\
+4 & Profile Viewer \(\rightarrow\) Scheduled Payment Manager \(\rightarrow\) Security Administrator. \\*
+5 & Security Administrator invokes \texttt{update\_password}; the requested external effect is verified. \\
+\midrule
+\multicolumn{2}{l}{Unsuccessful execution: \(G(3,3)\), Terminal feedback} \\*
+1 & Entry contacts the same three first-layer agents in sequence. The Profile Viewer delegates to the same Profile Manager. \\
+2 & Profile Manager reads the profile without updating the password. Its handoff return ends the Profile Viewer's activation. \\*
+3 & No further collaborator is selected; the target agent is not reached and the target effect is not verified. \\
+\end{longtable}
+\endgroup

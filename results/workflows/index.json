@@ -1,0 +1,318 @@
+{
+  "episodes": 1296,
+  "cells": [
+    {
+      "model": "qwen3-14b",
+      "condition": "system-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3-14b/system-terminal/metrics.jsonl.gz",
+          "sha256": "8b72b04e3ebfa4243c4b01ecd2e72c7b1ca092ffb0eb8adfe01a56e8fd51be10",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "0783dce09e56be5f138c26124d2bd4eec97f2169b1c094ab108c12bcfab1ed01"
+    },
+    {
+      "model": "qwen3-14b",
+      "condition": "system-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3-14b/system-natural/metrics.jsonl.gz",
+          "sha256": "ae02a5a26590c8a80c24e864e7f41906d76ee5ece97e8fe49ed4bd52c3d7d6f0",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "0783dce09e56be5f138c26124d2bd4eec97f2169b1c094ab108c12bcfab1ed01"
+    },
+    {
+      "model": "qwen3-14b",
+      "condition": "forward-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3-14b/forward-terminal/metrics.jsonl.gz",
+          "sha256": "3491fe95144fd6e1fc4d9ec21af9f53c98ea3a8bc51ddba8059a4ec1ce6b254e",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "330c14e77a83d861bc707530e48b159b74c51e618032049ae9f99b8f81b0a33c"
+    },
+    {
+      "model": "qwen3-14b",
+      "condition": "forward-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3-14b/forward-natural/metrics.jsonl.gz",
+          "sha256": "26a8c303dfcf383f9caa3e650e5c36b0972e9d217df5378b63cfd94d5dae1df4",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "330c14e77a83d861bc707530e48b159b74c51e618032049ae9f99b8f81b0a33c"
+    },
+    {
+      "model": "qwen3.5-9B-nothinking",
+      "condition": "system-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3.5-9B-nothinking/system-terminal/metrics.jsonl.gz",
+          "sha256": "c59ae8e15537384091645346f9217df4b96bb5e9b82aadce428ed0fe3606af7a",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "faace84c9c85e68fe30d789938166a2a6a3e705445c45c68ff16be8847b65e87"
+    },
+    {
+      "model": "qwen3.5-9B-nothinking",
+      "condition": "forward-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3.5-9B-nothinking/forward-terminal/metrics.jsonl.gz",
+          "sha256": "5348e8f47330d30d0c58bbb4dd28b40d9a646da155be50ddcee72d4b23d17839",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "f1f238711f22901977887aa5538b97fe612977b47220c395bf2ac3085548795b"
+    },
+    {
+      "model": "qwen3.5-9B-nothinking",
+      "condition": "system-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3.5-9B-nothinking/system-natural/metrics.jsonl.gz",
+          "sha256": "8d483ec3ac5058271451cc14b693a270ba8050db911b5f39fcbbf4f9ebefe732",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "b5594776846ce6f720f32a4dbecc959b6c124f4a9ca503a102ce7247d14012d6"
+    },
+    {
+      "model": "qwen3.5-9B-nothinking",
+      "condition": "forward-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3.5-9B-nothinking/forward-natural/metrics.jsonl.gz",
+          "sha256": "045a5456ed668dca47f1436fdf0b74ff5852b66f5100a921ea03da84fd6c1c00",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "b3180bdc53d6a0fec302fa1c7e74cb85284286ee30c2d774b9935edacb22b0e1"
+    },
+    {
+      "model": "qwen3.5-9B-thinking",
+      "condition": "system-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3.5-9B-thinking/system-terminal/metrics.jsonl.gz",
+          "sha256": "bbbb994afd3eeb390143543e8103b2881d0e77cb2d923e4f64655c515ad5939f",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "da31a8d4481ae91b014587f7f35e45082bb484816e1598ea43d049a1671e9b17"
+    },
+    {
+      "model": "qwen3.5-9B-thinking",
+      "condition": "forward-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3.5-9B-thinking/forward-terminal/metrics.jsonl.gz",
+          "sha256": "d3b138590fe67b8819521319d154d3fc1603eb6473c6a7d74b483aedc7ac3012",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "de64cf89f3b7349a1133d823335f6257cedc16afbae977adc69a1ba781e15abe"
+    },
+    {
+      "model": "qwen3.5-9B-thinking",
+      "condition": "system-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3.5-9B-thinking/system-natural/metrics.jsonl.gz",
+          "sha256": "562b5fbfc87b72eed2fa7629d9a842a3b288187fc7728411d31448416d3e694b",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "81a50805e0801af25d2c62b4d57c54a9d0672321462c050cff7598a479b8f2cb"
+    },
+    {
+      "model": "qwen3.5-9B-thinking",
+      "condition": "forward-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/qwen3.5-9B-thinking/forward-natural/metrics.jsonl.gz",
+          "sha256": "1709fb1cfcfb864ed84450fbc803992a2ba9173229dc98ae168722792581dfc0",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "fa9c45485ee547137205c9f0a28234c6a5412b219daa6553ed1eee7025710433"
+    },
+    {
+      "model": "ministral3-14b",
+      "condition": "system-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/ministral3-14b/system-terminal/metrics.jsonl.gz",
+          "sha256": "d66d343dfa4d840878572bd4467ecfb59682fe364fd3c38fef9479256807d57a",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "52d06aea9ecf55d85e5c640c9816e76b4ff012fe21c07d2ec14f4369f7921351"
+    },
+    {
+      "model": "ministral3-14b",
+      "condition": "forward-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/ministral3-14b/forward-terminal/metrics.jsonl.gz",
+          "sha256": "54775c396609a9e8e258c5c17633b17b0b566b50602c386196fa9bb1248150f0",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "59432a02e155410a6f285b6ca7e7f0e3bd98f4fd21a7edfeda961ece7fce14a5"
+    },
+    {
+      "model": "ministral3-14b",
+      "condition": "system-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/ministral3-14b/system-natural/metrics.jsonl.gz",
+          "sha256": "d88c79e8d2ea1ea2d8b267dbd1916c7e528c6cc5e40b0a3ac36140470d0fbbd5",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "bbaeee007a166ed09481e0c4c4af1684c72d281bc3c8e60ac55d66245abe90d3"
+    },
+    {
+      "model": "ministral3-14b",
+      "condition": "forward-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/ministral3-14b/forward-natural/metrics.jsonl.gz",
+          "sha256": "600be5092dbe247ba2e1115fc353b7843495791d2c996810b12a0fbf458ba15c",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "4288804d9ff7b6342b387bf760df0311454605d36f5219167b454fabe59a8d38"
+    },
+    {
+      "model": "gpt-oss-20b-low",
+      "condition": "system-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/gpt-oss-20b-low/system-terminal/metrics.jsonl.gz",
+          "sha256": "c89248d6c931bdf46beccc30056ff18ddd8449f23d24d2f6401ff45a3f579c23",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "3719b60c7050e295d270211e5c26def279ad59ef951eb1ece62eb724ef424054"
+    },
+    {
+      "model": "gpt-oss-20b-low",
+      "condition": "forward-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/gpt-oss-20b-low/forward-terminal/metrics.jsonl.gz",
+          "sha256": "0b4676c4541bcdfcc8d657e5c89f4139a18c69c908b70e842a5b0a61d82c12da",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "e1f55ed6f5c8d06238fb402418999a6533c64fa4b0d8043bd17c8d975da84424"
+    },
+    {
+      "model": "gpt-oss-20b-low",
+      "condition": "system-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/gpt-oss-20b-low/system-natural/metrics.jsonl.gz",
+          "sha256": "e17411f3f70afd12f1ced68d125cdb046b6bf6e71188bf8d32ec945ca169bc57",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "b97afec421b16c0b8c6812ae38bd916c127cd0275ccbb1a7161aedd95e3408d0"
+    },
+    {
+      "model": "gpt-oss-20b-low",
+      "condition": "forward-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/gpt-oss-20b-low/forward-natural/metrics.jsonl.gz",
+          "sha256": "4e316e1945111ef474955ad1e530498a148f058968c9b8b320c9d1ead0f55576",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "15531a1f2c408e02f2a0b818c25561949627c1c2aac08b9065130d51dcb86933"
+    },
+    {
+      "model": "llama3.1-8b",
+      "condition": "system-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/llama3.1-8b/system-terminal/metrics.jsonl.gz",
+          "sha256": "ee0d2d6c8facc9e24f457b043ae4fabbaba1e37385452eb2b2da060c89fe73d5",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "6421c1e45f9e9d43afcb8672f52f2838886a0109f00c4684debaffbacb889e03"
+    },
+    {
+      "model": "llama3.1-8b",
+      "condition": "forward-terminal",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/llama3.1-8b/forward-terminal/metrics.jsonl.gz",
+          "sha256": "d3f5463c2002c9bbca466d0f95881541b9491f0ec18ff8e0fe6b2a1cbd7ea55d",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "278011a8805edacb80d0d1de17b464f1fe3da8a0512e8956e1cdec388f662a41"
+    },
+    {
+      "model": "llama3.1-8b",
+      "condition": "system-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/llama3.1-8b/system-natural/metrics.jsonl.gz",
+          "sha256": "5a34ae19eb78eefaa42d3dd7540eb37c423252db6532bbfbc23ccdcfd7512957",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "de06d0a4caef3cec9f2480d6a9f1a48be371fe1fdb33e206c589d5663f48aa08"
+    },
+    {
+      "model": "llama3.1-8b",
+      "condition": "forward-natural",
+      "n": 54,
+      "parts": [
+        {
+          "path": "results/workflows/llama3.1-8b/forward-natural/metrics.jsonl.gz",
+          "sha256": "a3106c0a7c4094d1da3addcac132d6a5863b61fcb1b25a99cc49b36e7184deed",
+          "records": 54
+        }
+      ],
+      "source_summary_sha256": "51ae60856ecab1f1de415c225f4a239f6ec38f489c407edcfbc9626d325498ca"
+    }
+  ],
+  "representation": "Metric/protocol projection of all final concurrent executions; full messages and action histories in pinned complete archive."
+}
